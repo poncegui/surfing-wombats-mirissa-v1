@@ -1,8 +1,12 @@
-import React from "react";
-import BannerBackground from "../Assets/home-banner-background.png";
-import BannerImage from "../Assets/home-banner-image.png";
-import Navbar from "./Navbar";
+import BannerBackground from "../Assets/images-dron/dron-2.png";
 import { FiArrowRight } from "react-icons/fi";
+import Navbar from "./Navbar";
+import React from "react";
+
+// import BannerImage from "../Assets/home-banner-image.png";
+
+
+
 
 const Home = () => {
   return (
@@ -14,7 +18,7 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Your Favourite Food Delivered Hot & Fresh
+           Surfing Wombats Mirissa
           </h1>
           <p className="primary-text">
             Healthy switcher chefs do all the prep work, like peeding, chopping
@@ -25,7 +29,7 @@ const Home = () => {
           </button>
         </div>
         <div className="home-image-section">
-          <img src={BannerImage} alt="" />
+          {/* <img src={BannerImage} alt="" /> */}
         </div>
       </div>
     </div>

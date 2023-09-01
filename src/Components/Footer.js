@@ -1,9 +1,7 @@
-import React from "react";
-import Logo from "../Assets/Logo.svg";
-import { BsTwitter } from "react-icons/bs";
-import { SiLinkedin } from "react-icons/si";
-import { BsYoutube } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
+import Logo from "../Assets/logo-wombats.png";
+import React from "react";
 
 const Footer = () => {
   return (
@@ -13,9 +11,7 @@ const Footer = () => {
           <img src={Logo} alt="" />
         </div>
         <div className="footer-icons">
-          <BsTwitter />
-          <SiLinkedin />
-          <BsYoutube />
+          <BsInstagram />
           <FaFacebookF />
         </div>
       </div>

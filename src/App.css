@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Reem Kufi", sans-serif !important;
+  /* font-family: "Reem Kufi", sans-serif !important; */
+  font-family: 'LAQUATSA', sans-serif !important;
 }
 img {
   max-width: 100%;
@@ -20,7 +21,14 @@ body {
 }
 
 body {
-  background-color: #f6f6f6;
+  background-color: #f9efe4;
+}
+
+@font-face {
+  font-family: 'LAQUATSA';
+  src: url('./Assets/lacuatsa/Laquatsa.ttf');
+  font-style: normal;
+  font-weight: normal;
 }
 
 nav {
@@ -35,13 +43,13 @@ nav {
 .navbar-links-container a {
   margin-right: 3rem;
   text-decoration: none;
-  color: black;
-  font-size: 1.1rem;
+  color: #4c4c4c;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 .primary-button {
   padding: 0.9rem 1.75rem;
-  background-color: white;
+  background-color: #f9efe4;
   outline: none;
   border: none;
   border-radius: 5rem;
@@ -70,7 +78,8 @@ nav {
   top: -100px;
   right: -170px;
   z-index: -2;
-  max-width: 700px;
+  width: 100%;
+  opacity: 0.5;
 }
 .home-image-section {
   max-width: 600px;
@@ -82,6 +91,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  width: 85vw;
 }
 .primary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
@@ -97,14 +107,14 @@ nav {
 }
 .secondary-button {
   padding: 1rem 2.5rem;
-  background-color: #fe9e0d;
+  background-color: #B95D5B;
   outline: none;
   border: none;
   border-radius: 5rem;
   font-size: 1.1rem;
   cursor: pointer;
   font-weight: 600;
-  color: white;
+  color: #f9efe4;
   transition: 0.2s;
   display: flex;
   align-items: center;
@@ -141,7 +151,7 @@ nav {
 }
 .primary-subheading {
   font-weight: 700;
-  color: #fe9e0d;
+  color: #B95D5B;
   font-size: 1.15rem;
 }
 .about-buttons-container {
@@ -232,7 +242,7 @@ nav {
 }
 .testimonial-section-bottom {
   margin-top: 2rem;
-  background-color: white;
+  background-color: #f9efe4;
   padding: 1.5rem 2rem;
   display: flex;
   align-items: center;
@@ -255,7 +265,7 @@ nav {
 .testimonials-stars-container svg {
   margin: 0rem 0.25rem;
   font-size: 1.5rem;
-  color: #fe9e0d;
+  color: #B95D5B;
 }
 .testimonial-section-bottom h2 {
   margin-top: 1.5rem;
@@ -319,6 +329,10 @@ nav {
     max-width: 600px;
   }
 }
+  .nav-logo-container {
+  width: 100px;
+  }
+
 @media (max-width: 800px) {
   .nav-logo-container {
     max-width: 140px;
