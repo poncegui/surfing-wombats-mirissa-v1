@@ -1,11 +1,11 @@
 import './App.css';
 
 import About from './Components/About';
+import Carousel from './Components/carouselNoticias/Carousel';
 import Contact from './Components/Contact';
 import Cover from './Components/cover/Cover';
 import Footer from './Components/Footer';
 import ScrollToUp from './Components/ScrollToUp';
-import Testimonial from './Components/Testimonial';
 import Work from './Components/Work';
 
 // import Home from './Components/Home';
@@ -21,7 +21,7 @@ function App() {
         <ScrollToUp />
         <About />
         <Work />
-        <Testimonial />
+        <Carousel />
         <Contact />
         <Footer />
       </div>

@@ -3,7 +3,7 @@ import './Cover.css';
 import BannerImage from '../../Assets/logo-wombats.png';
 import Navbar from '../Navbar';
 import React from 'react';
-import coverVideo from '../../Assets/video/video-cover.MOV';
+import coverVideo from '../../Assets/images-cover/background-1.jpg';
 import styled from "styled-components";
 
 const Cover = () => {
@@ -11,7 +11,8 @@ const Cover = () => {
     <>
       <div className="cover-container">
         <Navbar />
-          <video className="video" src={coverVideo} autoPlay loop muted />
+          {/* <video className="video" src={coverVideo} autoPlay loop muted /> */}
+          <img className="video" src={coverVideo} alt=''/>
           <SurfingWombatsTitleContainer>
           <h1 className="primary-heading">Surfing</h1>
           <img className="primary-heading-image" src={BannerImage} alt="" />
@@ -30,6 +31,7 @@ const  SurfingWombatsTitleContainer = styled.div `
 display:flex;
 flex-direction: row;
 gap:2rem;
+
 
 @media (max-width: 440px) {
   flex-direction: column;
