@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.39c5d6c0.css",
-    "main.js": "./static/js/main.fe41b8a2.js",
+    "main.css": "./static/css/main.c1d45789.css",
+    "main.js": "./static/js/main.3fd55643.js",
     "static/media/dron-2.png": "./static/media/dron-2.c66e41e14696f5b4a684.png",
     "static/media/menu-kids.png": "./static/media/menu-kids.7b9bd09776041d982a8e.png",
     "static/media/langostinos.png": "./static/media/langostinos.dca25a1191b217cc83ed.png",
@@ -10,11 +10,11 @@
     "static/media/logo-wombats.png": "./static/media/logo-wombats.8980cb94699ebe3d9dbb.png",
     "static/media/Laquatsa.ttf": "./static/media/Laquatsa.4ed2ad784a85a6e5aae9.ttf",
     "index.html": "./index.html",
-    "main.39c5d6c0.css.map": "./static/css/main.39c5d6c0.css.map",
-    "main.fe41b8a2.js.map": "./static/js/main.fe41b8a2.js.map"
+    "main.c1d45789.css.map": "./static/css/main.c1d45789.css.map",
+    "main.3fd55643.js.map": "./static/js/main.3fd55643.js.map"
   },
   "entrypoints": [
-    "static/css/main.39c5d6c0.css",
-    "static/js/main.fe41b8a2.js"
+    "static/css/main.c1d45789.css",
+    "static/js/main.3fd55643.js"
   ]
 }
