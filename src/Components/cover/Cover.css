@@ -2,7 +2,7 @@
   height: 100vh;
   width: 100%;
   object-fit: contain;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 0 1000px rgba(246, 247, 245, 0.3);
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -26,7 +26,7 @@
 
 .cover-container > p {
   margin-top: 8px;
-  color: #a9a7a5;
+  color: #3e3e3d;
   font-size: 32px;
 
 }
