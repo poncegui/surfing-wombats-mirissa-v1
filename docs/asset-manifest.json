@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.c1d45789.css",
-    "main.js": "./static/js/main.3fd55643.js",
-    "static/media/dron-2.png": "./static/media/dron-2.c66e41e14696f5b4a684.png",
+    "main.css": "./static/css/main.f7bcf6b5.css",
+    "main.js": "./static/js/main.077b6bb3.js",
+    "static/media/video-cover.MOV": "./static/media/video-cover.2180441649575b3d79db.MOV",
     "static/media/menu-kids.png": "./static/media/menu-kids.7b9bd09776041d982a8e.png",
     "static/media/langostinos.png": "./static/media/langostinos.dca25a1191b217cc83ed.png",
     "static/media/coktail-2.png": "./static/media/coktail-2.500e96edf3ee2e3e4127.png",
@@ -10,11 +10,11 @@
     "static/media/logo-wombats.png": "./static/media/logo-wombats.8980cb94699ebe3d9dbb.png",
     "static/media/Laquatsa.ttf": "./static/media/Laquatsa.4ed2ad784a85a6e5aae9.ttf",
     "index.html": "./index.html",
-    "main.c1d45789.css.map": "./static/css/main.c1d45789.css.map",
-    "main.3fd55643.js.map": "./static/js/main.3fd55643.js.map"
+    "main.f7bcf6b5.css.map": "./static/css/main.f7bcf6b5.css.map",
+    "main.077b6bb3.js.map": "./static/js/main.077b6bb3.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1d45789.css",
-    "static/js/main.3fd55643.js"
+    "static/css/main.f7bcf6b5.css",
+    "static/js/main.077b6bb3.js"
   ]
 }
