@@ -53,9 +53,9 @@ const Navbar = () => {
         <a href=""> | About  |</a>
         <a href=""> | Testimonials  |</a>
         <a href=""> | Contact  |</a>
-        <a href="">
+        {/* <a href="">
           <BsCart2 className="navbar-cart-icon" />
-        </a>
+        </a> */}
         <button className="primary-button">Bookings Now</button>
       </div>
       <div className="navbar-menu-container">

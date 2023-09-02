@@ -1,26 +1,29 @@
-import ChooseMeals from "../Assets/choose-image.png";
-import DeliveryMeals from "../Assets/delivery-image.png";
-import PickMeals from "../Assets/pick-meals-image.png";
+import ChooseMeals from "../Assets/images-food/langostinos.png";
+import DeliveryMeals from "../Assets/images-food/menu-kids.png";
+import PickMeals from "../Assets/images-drinks/coktail-2.png";
 import React from "react";
 
 const Work = () => {
   const workInfoData = [
     {
-      image: PickMeals,
-      title: "Menu",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
-      url:'',
-    },
-    {
+      id:1,
       image: ChooseMeals,
-      title: "Kids Menu",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      title: "Menu",
+      button: "download",
       url:'',
     },
     {
+      id:2,
       image: DeliveryMeals,
+      title: "Kids Menu",
+      button: "download",
+      url:'',
+    },
+    {
+      id:3,
+      image: PickMeals,
       title: "Drinks",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      button: "download",
       url:'',
     },
   ];
@@ -36,12 +39,13 @@ const Work = () => {
       </div>
       <div className="work-section-bottom">
         {workInfoData.map((data) => (
-          <div className="work-section-info" key={data.title}>
+          <div className="work-section-info" key={data.title} id={data.id}>
+            {/* <img src={data.image} alt="" /> */}
             <div className="info-boxes-img-container">
-              <img src={data.image} alt="" />
+              {/* <img src={data.image} alt="" /> */}
             </div>
             <h2>{data.title}</h2>
-            <p>{data.text}</p>
+            <button>{data.button}</button>
           </div>
         ))}
       </div>

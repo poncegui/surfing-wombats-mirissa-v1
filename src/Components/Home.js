@@ -6,8 +6,6 @@ import React from "react";
 // import BannerImage from "../Assets/home-banner-image.png";
 
 
-
-
 const Home = () => {
   return (
     <div className="home-container">
