@@ -22,7 +22,7 @@ const Work = () => {
     {
       id:3,
       image: PickMeals,
-      title: "Drinks",
+      title: "Cocktails & Drinks",
       button: "download",
       url:'',
     },

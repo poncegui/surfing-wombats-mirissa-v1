@@ -24,6 +24,10 @@ body {
   background-color: #f9efe4;
 }
 
+nav{
+padding: 5% 10% 10% 5%;
+}
+
 @font-face {
   font-family: 'LAQUATSA';
   src: url('./Assets/lacuatsa/Laquatsa.ttf');
@@ -44,7 +48,7 @@ nav {
 .navbar-links-container a {
   margin-right: 3rem;
   text-decoration: none;
-  color: #4c4c4c;
+  color: #f9efe4;
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: 2px;
@@ -108,12 +112,17 @@ nav {
    display: none;
   }
 }
+
+.primary-heading-image{
+  width:100px;
+}
+
 .primary-heading {
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: clamp(2.5rem, 5vw, 5rem);
   color:#B95D5B;
-  max-width: 600px;
+  max-width: 800px;
   letter-spacing: 5px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .secondary-heading {
@@ -161,7 +170,7 @@ nav {
   background-color: #e48f0f;
 }
 .about-section-container {
-  margin-top: 20rem;
+  margin-top: 10rem;
   position: relative;
   display: flex;
   align-items: center;

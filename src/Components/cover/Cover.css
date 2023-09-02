@@ -2,12 +2,11 @@
   height: 100vh;
   width: 100%;
   object-fit: contain;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
-  
 
 }
 
@@ -20,15 +19,14 @@
 }
 
 .cover-container > h3 {
-  color: white;
+  color: #f9efe4;
   font-size: 100px;
-  
 
 }
 
 .cover-container > p {
   margin-top: 8px;
-  color: white;
+  color: #a9a7a5;
   font-size: 32px;
 
 }
@@ -56,6 +54,5 @@
     text-align: center;
     font-size: 22px;
     width: 70%;
-    
   }
 }
