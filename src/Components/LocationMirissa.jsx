@@ -25,7 +25,7 @@ const LocationMirissa = () => {
 export default LocationMirissa;
 
 const LocationMirissaContainer = styled.div`
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   object-fit: contain;
   display: flex;
@@ -36,7 +36,7 @@ const LocationMirissaContainer = styled.div`
   .video {
     object-fit: cover;
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     position: absolute;
     z-index: -1;
     opacity: 0.6;

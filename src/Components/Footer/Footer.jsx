@@ -44,7 +44,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Bandaramulla, Mirissa 81740
+                  Bandaramulla, <br></br>Mirissa 81740
                 </a>
               </li>
             </ul>

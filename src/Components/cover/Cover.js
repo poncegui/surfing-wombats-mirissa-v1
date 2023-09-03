@@ -15,9 +15,9 @@ const Cover = () => {
         {/* <video className="video" src={coverVideo} autoPlay loop muted /> */}
         <img className="background" src={coverVideo} alt="" />
         <SurfingWombatsTitleContainer>
-          <h1 className="primary-heading">Surfing</h1>
+          <h1>Surfing</h1>
           <img className="primary-heading-image" src={BannerImage} alt="" />
-          <h1 className="primary-heading">Wombats</h1>
+          <h1>Wombats</h1>
         </SurfingWombatsTitleContainer>
         <p>Chillinguito ∼ Mirissa </p>
         <ComingSoonTitle>
@@ -87,6 +87,14 @@ const SurfingWombatsTitleContainer = styled.div`
     justify-content: center;
     align-items: center;
     gap: 1.2rem;
+  }
+
+  h1{
+    font-size: clamp(3rem, 5vw, 5rem);
+  color:#B95D5B;
+  max-width: 800px;
+  letter-spacing: 5px;
+  font-weight: 300;
   }
 `;
 

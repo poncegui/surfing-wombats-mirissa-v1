@@ -39,7 +39,7 @@ const Work = () => {
       <div className="work-section-bottom">
         {workInfoData.map((data) => (
           <div className="work-section-info" key={data.title} id={data.id}>
-            <button>{data.button}</button>
+            <button className="secondary-button">{data.button}</button>
           </div>
         ))}
       </div>
