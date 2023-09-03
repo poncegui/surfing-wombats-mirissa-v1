@@ -1,30 +1,28 @@
 import './App.css';
 
 import About from './Components/About';
-import Carousel from './Components/carouselNoticias/Carousel';
 import Contact from './Components/Contact';
 import Cover from './Components/cover/Cover';
-import Footer from './Components/Footer';
+import Footer from './Components/Footer/Footer';
+import LocationMirissa from './Components/LocationMirissa';
 import ScrollToUp from './Components/ScrollToUp';
 import Work from './Components/Work';
-
-// import Home from './Components/Home';
-
-
-
 
 function App() {
   return (
     <>
       <Cover />
+
       <div className="App">
         <ScrollToUp />
         <About />
         <Work />
-        <Carousel />
+        </div>
+        <LocationMirissa />
+        <div className="App">
         <Contact />
+        </div>
         <Footer />
-      </div>
     </>
   );
 }

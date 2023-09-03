@@ -9,21 +9,21 @@ const Work = () => {
       id:1,
       image: ChooseMeals,
       title: "Menu",
-      button: "download",
+      button:  "Menu",
       url:'',
     },
     {
       id:2,
       image: DeliveryMeals,
       title: "Kids Menu",
-      button: "download",
+      button: "Kids Menu",
       url:'',
     },
     {
       id:3,
       image: PickMeals,
       title: "Cocktails & Drinks",
-      button: "download",
+      button:  "Cocktails & Drinks",
       url:'',
     },
   ];
@@ -31,20 +31,14 @@ const Work = () => {
     <div className="work-section-wrapper">
       <div className="work-section-top">
         <p className="primary-subheading">Discover our Menu</p>
-        <h1 className="primary-heading">Food & Drinks</h1>
+        <h1 className="primary-heading">Food, Drinks  & Cocktails</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        Download our menu cards and enjoy the wombats experience
         </p>
       </div>
       <div className="work-section-bottom">
         {workInfoData.map((data) => (
           <div className="work-section-info" key={data.title} id={data.id}>
-            {/* <img src={data.image} alt="" /> */}
-            <div className="info-boxes-img-container">
-              {/* <img src={data.image} alt="" /> */}
-            </div>
-            <h2>{data.title}</h2>
             <button>{data.button}</button>
           </div>
         ))}

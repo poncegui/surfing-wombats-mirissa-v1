@@ -10,7 +10,7 @@ img {
   height: auto;
 }
 .App {
-  min-height: 100vh;
+  min-height: 60vh;
   width: 85vw;
   max-width: 1900px;
   margin: 0rem auto;
@@ -46,14 +46,14 @@ nav {
 .navbar-links-container a {
   margin-right: 3rem;
   text-decoration: none;
-  color: rgb(21, 21, 21);
+  color: #B95D5B;
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: 2px;
 }
 
 .navbar-links-container  a:hover {
-  text-decoration:line-through rgb(21, 21, 21);
+  text-decoration:line-through #B95D5B;
   transition: all 0.3s ease-out;
 
 }
@@ -80,45 +80,14 @@ nav {
   cursor: pointer;
 }
 
-.home-banner-container {
-  position: relative;
-  display: flex;
-  padding-top: 3rem;
-}
-.home-bannerImage-container {
-  position: absolute;
-  top: -100px;
-  right: -170px;
-  z-index: -2;
-  width: 100%;
-  opacity: 0.5;
-}
-.home-image-section {
-  max-width: 600px;
-  flex: 1;
-}
-.home-text-section {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-@media (max-width: 440px) {
-  .home-text-section img{
-   display: none;
-
-  }
-}
 
 .primary-heading-image{
   width:100px;
 }
 
 .primary-heading {
-  font-size: clamp(2.5rem, 5vw, 5rem);
-  color:rgb(21, 21, 21);
+  font-size: clamp(2.5rem, 5vw, 3rem);
+  color:#B95D5B;
   max-width: 800px;
   letter-spacing: 5px;
   font-weight: 300;
@@ -126,7 +95,7 @@ nav {
 
 .secondary-heading {
   font-size: clamp(1.5rem, 3vw, 2rem);
-  color: #212121;
+  color: #B95D5B;
   max-width: 600px;
   letter-spacing: 5px;
   font-weight: 200;
@@ -184,7 +153,7 @@ nav {
 }
 .about-section-image-container {
   flex: 0.9;
-  margin-right: 1rem;
+  margin-right: 3rem;
 }
 
 .about-section-image-container img{
@@ -335,18 +304,16 @@ nav {
   flex-direction: column;
 }
 .work-section-info {
-  width: 290px;
-  min-height: 200px;
+  width: 200px;
+  min-height: 100px;
   background-color: white;
-  padding: 1rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   border-radius: 1rem;
-  color: #505050;
-  margin: 1rem 2rem;
+  color: #4c4c4c;
 }
 
 .work-section-info  {
@@ -358,7 +325,7 @@ nav {
   ), url("./Assets/images-food/langostinos.png"); */
 }
 .work-section-info h2 {
-  margin: 1rem 0rem;
+  margin: 2rem 0rem;
 }
 .work-section-info img{
   opacity: 0.5;
@@ -367,22 +334,22 @@ nav {
 
 .work-section-info button{
 cursor: pointer;
-border-radius: 10px;
-width: 200px;
-height: 25px;
+border-radius: 30px;
+width: 150px;
+height: 50px;
 background-color:#B95D5B;
 color:#f9efe4;
 }
 
 .work-section-info:hover button{
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 30px;
   background-color: #4c4c4c;
   color: #f9efe4;
   }
 
 .work-section-bottom {
-  margin-top: 5rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -508,6 +475,10 @@ color:#f9efe4;
     flex-direction: column;
   }
   .footer-section-two {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .footer-section-one {
     flex-direction: column;
     margin-top: 2rem;
   }
