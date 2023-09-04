@@ -37,14 +37,14 @@ nav {
   align-items: center;
   justify-content: space-between;
   min-height: 90px;
-  padding: 5% 10% 10% 5%;
+  padding: 3% 10% 10% 3%;
 }
 
 .navbar-menu-container {
   display: none;
 }
 .navbar-links-container a {
-  margin-right: 3rem;
+  margin-right: 2rem;
   text-decoration: none;
   color: #B95D5B;
   font-size: 1.5rem;
@@ -58,6 +58,11 @@ nav {
 
 }
 .primary-button {
+ /* display:flex;
+ justify-content: center; */
+ gap: 0.5rem;
+ position: -30%;
+ margin-top: 2rem;
   padding: 0.9rem 1.75rem;
   background-color: #f9efe4;
   outline: none;

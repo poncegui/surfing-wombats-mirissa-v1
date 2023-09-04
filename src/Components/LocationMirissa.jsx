@@ -9,7 +9,7 @@ const LocationMirissa = () => {
     <LocationMirissaContainer>
       <video className="video" src={coverVideo} autoPlay loop muted />
       <TextContainer>
-        <h3>the ocean view</h3>
+        <h3>where the ocean meets the jungle</h3>
         <p>
           Surfing Wombats in Mirissa is located in the small beach in front of
           the beautiful Parrot rock. This side of Mirissa is more quiet and
