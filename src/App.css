@@ -5,6 +5,10 @@
   font-family: 'LAQUATSA', sans-serif !important;
   letter-spacing: 2px;
 }
+
+Links {
+  text-decoration: none;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -58,9 +62,6 @@ nav {
 
 }
 .primary-button {
- /* display:flex;
- justify-content: center; */
- gap: 0.5rem;
  position: -30%;
  margin-top: 2rem;
   padding: 0.9rem 1.75rem;
