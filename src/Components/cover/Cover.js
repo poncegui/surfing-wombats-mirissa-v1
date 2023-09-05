@@ -21,7 +21,7 @@ const Cover = () => {
         </SurfingWombatsTitleContainer>
         <p>Chillinguito ∼ Mirissa </p>
         <ComingSoonTitle>
-          <h2> New season is Coming soon! October ∼ 2023 </h2>
+          <h2> New season Coming soon! October ∼ 2023 </h2>
         </ComingSoonTitle>
       </CoverContainer>
       <TitleSection

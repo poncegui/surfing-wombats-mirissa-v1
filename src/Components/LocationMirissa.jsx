@@ -10,9 +10,7 @@ const LocationMirissa = () => {
       <video className="video" src={coverVideo} autoPlay loop muted />
       <TextContainer>
         <h3>where the ocean meets the jungle</h3>
-        <p>
-          Surfing Wombats in Mirissa is located in the small beach in front of
-          the beautiful Parrot rock. This side of Mirissa is more quiet and
+        <p>Surfing Wombats Mirissa is located on the side more quiet and
           perfect for anyone who wants to swim and then get good food or drinks
           watching at the ocean. We also allow you to leave your belongings to
           us while you want to go for a swim or even better for a surf!

@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "./static/css/main.79cbf46d.css",
-    "main.js": "./static/js/main.53c5f558.js",
+    "main.js": "./static/js/main.d354ad9f.js",
     "static/media/video-cover.MOV": "./static/media/video-cover.2180441649575b3d79db.MOV",
     "static/media/menu-kids.png": "./static/media/menu-kids.7b9bd09776041d982a8e.png",
     "static/media/pizzas-mar.png": "./static/media/pizzas-mar.29af952b0c285fed52e9.png",
     "static/media/langostinos.png": "./static/media/langostinos.dca25a1191b217cc83ed.png",
     "static/media/coktail-2.png": "./static/media/coktail-2.500e96edf3ee2e3e4127.png",
+    "static/media/map-mirissa-pencil.png": "./static/media/map-mirissa-pencil.cd155dc1035c96128294.png",
     "static/media/background-1.jpg": "./static/media/background-1.e83809009d637afa81f4.jpg",
     "static/media/dish-1.jpeg": "./static/media/dish-1.244f01e36b872b522686.jpeg",
     "static/media/Laquatsa.ttf": "./static/media/Laquatsa.4ed2ad784a85a6e5aae9.ttf",
     "static/media/logo-wombats.png": "./static/media/logo-wombats.06c373a0884ca7de6968.png",
     "index.html": "./index.html",
     "main.79cbf46d.css.map": "./static/css/main.79cbf46d.css.map",
-    "main.53c5f558.js.map": "./static/js/main.53c5f558.js.map"
+    "main.d354ad9f.js.map": "./static/js/main.d354ad9f.js.map"
   },
   "entrypoints": [
     "static/css/main.79cbf46d.css",
-    "static/js/main.53c5f558.js"
+    "static/js/main.d354ad9f.js"
   ]
 }

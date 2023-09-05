@@ -81,7 +81,7 @@ export const Section = styled.section`
 `;
 
 export const SectionProjects = styled.section`
-  padding: ${({ padding }) => (padding ? padding : "60px 0")};
+  padding: ${({ padding }) => (padding ? padding : "30px 0")};
   margin: ${({ margin }) => (margin ? margin : "")};
   background: ${({ inverse }) => (inverse ? "white" : "#B95D5B")};
   position: ${({ position }) => (position ? position : "")};
