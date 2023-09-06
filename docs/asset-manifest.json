@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.79cbf46d.css",
-    "main.js": "./static/js/main.ff42dc88.js",
+    "main.js": "./static/js/main.cbaf47fa.js",
     "static/media/video-cover.MOV": "./static/media/video-cover.2180441649575b3d79db.MOV",
     "static/media/menu-kids.png": "./static/media/menu-kids.7b9bd09776041d982a8e.png",
     "static/media/pizzas-mar.png": "./static/media/pizzas-mar.29af952b0c285fed52e9.png",
@@ -14,10 +14,10 @@
     "static/media/logo-wombats.png": "./static/media/logo-wombats.06c373a0884ca7de6968.png",
     "index.html": "./index.html",
     "main.79cbf46d.css.map": "./static/css/main.79cbf46d.css.map",
-    "main.ff42dc88.js.map": "./static/js/main.ff42dc88.js.map"
+    "main.cbaf47fa.js.map": "./static/js/main.cbaf47fa.js.map"
   },
   "entrypoints": [
     "static/css/main.79cbf46d.css",
-    "static/js/main.ff42dc88.js"
+    "static/js/main.cbaf47fa.js"
   ]
 }

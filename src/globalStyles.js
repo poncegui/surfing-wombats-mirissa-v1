@@ -93,7 +93,7 @@ export const SectionProjects = styled.section`
   min-height: ${({ minHeight }) => (minHeight ? minHeight : "auto")};
 
   @media (max-width: 768px) {
-    padding: ${({ smPadding }) => (smPadding ? smPadding : "50px 0")};
+    padding: ${({ smPadding }) => (smPadding ? smPadding : "15px 0")};
   }
 `;
 

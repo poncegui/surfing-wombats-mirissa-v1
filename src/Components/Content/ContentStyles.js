@@ -14,9 +14,9 @@ export const ContentRow = styled.div`
 `;
 
 export const ContentColumn = styled.div`
-  margin-bottom: 15px;
+  /* margin-bottom: 15px;
   padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 15px; */
   flex: 1;
   z-index: 10;
   display: flex;
@@ -66,6 +66,11 @@ export const TopLine = styled.div`
   margin-bottom: 1.3rem;
   color: grey;
   text-decoration: none;
+  letter-spacing:1.5px;
+
+  @media (max-width: 440px) {
+    margin-top:15px;
+  }
 `;
 
 export const Img = styled.img`
@@ -89,17 +94,20 @@ export const Heading = styled.h2`
 
   @media (max-width: 768px) {
     text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
   }
   @media (max-width: 440px) {
-    font-size: 2rem;
+    font-size: 1.5;
+    font-weight: 300;
   }
 `;
 
 export const Subtitle = styled.p`
   max-width: 440px;
-  margin-bottom: 35px;
-  line-height: 24px;
-  font-size: 1.5rem;
+  /* margin-bottom: 35px; */
+  line-height:35px;
+  font-size: 1.2rem;
   color: ${({ inverse }) => (inverse ? "#6a6a6a" : "#FFC0BC")};
 `;
 
