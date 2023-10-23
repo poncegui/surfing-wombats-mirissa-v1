@@ -16,6 +16,7 @@ const HeadingStyles = styled.div`
   background-image: url("./assets/title_pattern.png");
   height: 50px;
   background-position: center;
+  margin-top:15%;
 
   h2 {
   font-weight: 400;

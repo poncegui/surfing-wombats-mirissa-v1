@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Pdf extends Component {
   componentDidMount() {
     if (typeof window.orientation !== "undefined") {
-      document.getElementById("enlaceDescargarPdf21").click();
+      document.getElementById("download-kids-menu-pdf").click();
       window.close();
     }
   }
@@ -21,11 +21,10 @@ class Pdf extends Component {
             href={require("./docs_pdf/kids-menu-surfing-wombats.pdf")}
             rel="noreferrer"
             target="_blank"
-            id="enlaceDescargarPdf21"
+            id="download-kids-menu-pdf"
             download="kids-menu-surfing-wombats.pdf"
           >
-            Tu dispositivo no puede visualizar los PDF, da click aquí para
-            descargarlo
+          Click to download file
           </a>
         </object>
       </div>

@@ -10,7 +10,6 @@ import Ucard from "./Ucard"
 import arrowLeft from '../../Assets/chevron-left.png'
 import arrowRight from '../../Assets/chevron-right.png'
 import styled from 'styled-components';
-import {workInfoData} from '../../caruselData'
 
 const SampleNextArrow = (props) => {
   const { onClick } = props
@@ -32,7 +31,7 @@ const SamplePrevArrow = (props) => {
     </div>
   )
 }
-const SliderDisplay = ({ items, title , slides, datas,buttons}) => {
+const SliderDisplay = ({ items, title , slides, buttons}) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -46,9 +45,16 @@ const SliderDisplay = ({ items, title , slides, datas,buttons}) => {
       cssEase: "linear",
     responsive: [
       {
-        breakpoint: 800,
+        breakpoint: 867,
         settings: {
           slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 440,
+        settings: {
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
@@ -60,13 +66,6 @@ const SliderDisplay = ({ items, title , slides, datas,buttons}) => {
       <HeadingSection title={title}/>
         <SliderDisplayContainer>
           <div className='heading flexSB'>
-          {/* <div className="work-section-bottom">
-        {datas.map((data) => (
-          <div className="work-section-info" key={data.title} id={data.id}>
-          </div>
-        ))}
-      </div> */}
-
           </div>
           <div className='content'>
             <Slider {...settings}>
@@ -81,7 +80,9 @@ const SliderDisplay = ({ items, title , slides, datas,buttons}) => {
           </div>
           <SliderDisplayContainerButtons>
       {buttons.map((button) => (
+            <Link to={button.url}>
             <button className="secondary-button">{button.button}</button>
+            </Link>
         ))}
          </SliderDisplayContainerButtons>
         </SliderDisplayContainer>

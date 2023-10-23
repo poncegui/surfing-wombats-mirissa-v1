@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'LAQUATSA', sans-serif !important;
   letter-spacing: 2px;
+  text-decoration: none;
 }
 
 Links {
@@ -22,9 +23,6 @@ img {
 body {
   max-width: 100%;
   overflow-x: hidden;
-}
-
-body {
   background-color: #f9efe4;
 }
 
@@ -42,6 +40,12 @@ nav {
   justify-content: space-between;
   min-height: 90px;
   padding: 3% 10% 10% 3%;
+}
+
+@media (max-width: 440px) {
+  nav{
+    padding: 0;
+  }
 }
 
 .navbar-menu-container {

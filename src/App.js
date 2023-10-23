@@ -1,14 +1,18 @@
 import './App.css';
 
 import React, { useState } from "react"
+import { Route, Routes } from "react-router-dom";
 import {buttonsDrinks, buttonsMenu, drinks, food} from './caruselData';
 
 import About from './Components/About';
+import ChildMenuPDF from './Components/pdf/ChildMenuPDF';
 import Contact from './Components/Contact';
 import Cover from './Components/cover/Cover';
+import DrinksPDF from './Components/pdf/DrinksPDF';
 import Footer from './Components/Footer/Footer';
 import LocationMirissa from './Components/LocationMirissa';
 import MapMirissa from './Components/MapMirissa';
+import MenuPDF from './Components/pdf/MenuPDF';
 import ScrollToUp from './Components/ScrollToUp';
 import SliderDisplay from './Components/sliderDisplay/SliderDisplay';
 import Work from './Components/Work';
@@ -31,6 +35,11 @@ function App() {
         <Contact />
         <MapMirissa />
         </div>
+        <Routes>
+        <Route path="/menu-food" element={<MenuPDF />} />
+        <Route path="/kids-menu" element={<ChildMenuPDF />} />
+        <Route path="/drinks&food" element={<DrinksPDF />} />
+        </Routes>
         <Footer />
     </>
   );
