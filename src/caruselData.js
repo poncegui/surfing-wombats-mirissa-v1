@@ -9,31 +9,31 @@ export const food = [
     id: 1,
     cover: food1,
     title: "Burrata",
-    subTitle: "xxxxx",
+    subtitle: "xxxxx",
   },
   {
     id: 2,
     cover: food2,
     title: "Pasta",
-    subTitle: "xxxxx",
+    subtitle: "xxxxx",
   },
   {
     id: 4,
     cover:food4,
     title: "Pasta",
-    subTitle: "xxxxx",
+    subtitle: "xxxxx",
   },
   {
     id: 3,
     cover: food3,
     title: "Romescu Prawns",
-    subTitle: "xxxxx",
+    subtitle: "xxxxx",
   },
 
   {
     id: 5,
     cover:food5,
     title: "Pizza",
-    subTitle: "xxxxx",
+    subtitle: "xxxxx",
   },
 ]

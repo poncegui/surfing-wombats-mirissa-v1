@@ -20,9 +20,9 @@ const Cover = () => {
           <h1>Wombats</h1>
         </SurfingWombatsTitleContainer>
         <p>Chillinguito ∼ Mirissa </p>
-        <ComingSoonTitle>
+        {/* <ComingSoonTitle>
           <h2> New season Coming soon! October ∼ 2023 </h2>
-        </ComingSoonTitle>
+        </ComingSoonTitle> */}
       </CoverContainer>
       <TitleSection
         title="new season is coming soon!  ∼ october 2023  ∼"
