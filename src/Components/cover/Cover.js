@@ -24,11 +24,11 @@ const Cover = () => {
           <h2> New season Coming soon! October ∼ 2023 </h2>
         </ComingSoonTitle> */}
       </CoverContainer>
-      <TitleSection
+      {/* <TitleSection
         title="new season is coming soon!  ∼ october 2023  ∼"
         inverse
         margintTop
-      />
+      /> */}
     </>
   );
 };

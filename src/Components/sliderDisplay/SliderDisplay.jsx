@@ -6,6 +6,7 @@ import { Link } from "react-router-dom"
 import React from "react"
 import Slider from "react-slick"
 import Ucard from "./Ucard"
+import styled from 'styled-components';
 
 const SampleNextArrow = (props) => {
   const { onClick } = props
@@ -48,8 +49,8 @@ const SliderDisplay = ({ items, title , slides}) => {
   }
   return (
     <>
-      <section className='upcome'>
-        <div className='container'>
+      <SliderDisplaySection>
+        <SliderDisplayContainer>
           <div className='heading flexSB'>
             <h1>{title}</h1>
             <Link to='/'>View All</Link>
@@ -65,10 +66,21 @@ const SliderDisplay = ({ items, title , slides}) => {
               })}
             </Slider>
           </div>
-        </div>
-      </section>
+        </SliderDisplayContainer>
+      </SliderDisplaySection>
     </>
   )
 }
 
 export default SliderDisplay
+
+
+const SliderDisplaySection = styled.section`
+
+  margin:15% auto;
+`;
+
+const SliderDisplayContainer = styled.div`
+  max-width: 90%;
+  margin: auto;
+`;

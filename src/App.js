@@ -22,7 +22,7 @@ function App() {
         <ScrollToUp />
         <About />
         <Work />
-        <SliderDisplay items={items} title='Our Food' slides={4}/>
+        <SliderDisplay items={items} title='Our Food' slides={3}/>
         </div>
         <LocationMirissa />
         <div className="App">
