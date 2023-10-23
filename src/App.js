@@ -1,6 +1,7 @@
 import './App.css';
 
 import React, { useState } from "react"
+import {buttonsDrinks, buttonsMenu, drinks, food} from './caruselData';
 
 import About from './Components/About';
 import Contact from './Components/Contact';
@@ -11,10 +12,10 @@ import MapMirissa from './Components/MapMirissa';
 import ScrollToUp from './Components/ScrollToUp';
 import SliderDisplay from './Components/sliderDisplay/SliderDisplay';
 import Work from './Components/Work';
-import {food} from './caruselData';
 
 function App() {
   const [items] = useState(food)
+  const [drink] = useState(drinks)
   return (
     <>
       <Cover />
@@ -22,7 +23,8 @@ function App() {
         <ScrollToUp />
         <About />
         <Work />
-        <SliderDisplay items={items} title='Our Food' slides={3}/>
+        <SliderDisplay items={items} title='Our Food' slides={3} datas={food} buttons={buttonsMenu}/>
+        <SliderDisplay items={drink} title='Our Drinks & Cocktails' slides={3} datas={drinks} buttons={buttonsDrinks}/>
         </div>
         <LocationMirissa />
         <div className="App">

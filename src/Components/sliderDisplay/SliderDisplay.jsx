@@ -2,18 +2,22 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import "./SliderDisplay.css"
 
+import HeadingSection from "../components/HeadingSection/HeadingSection"
 import { Link } from "react-router-dom"
 import React from "react"
 import Slider from "react-slick"
 import Ucard from "./Ucard"
+import arrowLeft from '../../Assets/chevron-left.png'
+import arrowRight from '../../Assets/chevron-right.png'
 import styled from 'styled-components';
+import {workInfoData} from '../../caruselData'
 
 const SampleNextArrow = (props) => {
   const { onClick } = props
   return (
     <div className='control-btn' onClick={onClick}>
       <button className='next'>
-        <i class='fa fa-chevron-right'></i>
+      <img src={arrowRight} alt='go right'/>
       </button>
     </div>
   )
@@ -23,20 +27,23 @@ const SamplePrevArrow = (props) => {
   return (
     <div className='control-btn' onClick={onClick}>
       <button className='prev'>
-        <i class='fa fa-chevron-left'></i>
+        <img src={arrowLeft} alt='go'/>
       </button>
     </div>
   )
 }
-const SliderDisplay = ({ items, title , slides}) => {
+const SliderDisplay = ({ items, title , slides, datas,buttons}) => {
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
-    speed: 500,
     slidesToShow: slides,
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+    autoplay: true,
+      speed: 2300,
+      autoplaySpeed: 2300,
+      cssEase: "linear",
     responsive: [
       {
         breakpoint: 800,
@@ -50,10 +57,16 @@ const SliderDisplay = ({ items, title , slides}) => {
   return (
     <>
       <SliderDisplaySection>
+      <HeadingSection title={title}/>
         <SliderDisplayContainer>
           <div className='heading flexSB'>
-            <h1>{title}</h1>
-            <Link to='/'>View All</Link>
+          {/* <div className="work-section-bottom">
+        {datas.map((data) => (
+          <div className="work-section-info" key={data.title} id={data.id}>
+          </div>
+        ))}
+      </div> */}
+
           </div>
           <div className='content'>
             <Slider {...settings}>
@@ -66,6 +79,11 @@ const SliderDisplay = ({ items, title , slides}) => {
               })}
             </Slider>
           </div>
+          <SliderDisplayContainerButtons>
+      {buttons.map((button) => (
+            <button className="secondary-button">{button.button}</button>
+        ))}
+         </SliderDisplayContainerButtons>
         </SliderDisplayContainer>
       </SliderDisplaySection>
     </>
@@ -76,11 +94,19 @@ export default SliderDisplay
 
 
 const SliderDisplaySection = styled.section`
-
-  margin:15% auto;
+  margin:10% auto;
 `;
 
 const SliderDisplayContainer = styled.div`
   max-width: 90%;
-  margin: auto;
+  margin: 5% auto;
+`;
+
+const SliderDisplayContainerButtons = styled.div`
+display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:center;
+gap: 10%;
+margin-top: 5%;
 `;

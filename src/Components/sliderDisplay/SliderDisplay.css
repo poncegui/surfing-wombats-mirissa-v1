@@ -38,6 +38,10 @@
   .MovieBox h3 {
     font-weight: 500;
     margin-bottom: 15px;
+    color:white;
+  }
+  .MovieBox span {
+        color:white;
   }
   .MovieBox button {
     margin-top: 15px;
@@ -47,7 +51,9 @@
   }
   .MovieBox button i {
     margin-right: 10px;
+    color:white;
   }
+
   /*---------------MovieBox-------------*/
   @media only screen and (max-width: 768px) {
     .MovieBox {
@@ -55,8 +61,6 @@
       height: 250px;
     }
   }
-
-
   /*---------------control-btn-------------*/
 .control-btn button {
     background: none;
@@ -66,7 +70,11 @@
     height: 50px;
     border-radius: 50%;
     cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
   }
+
   .control-btn .next {
     position: absolute;
     top: 50%;
