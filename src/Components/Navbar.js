@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 
 import Box from '@mui/material/Box';
-import { Link as Contact } from "react-scroll";
 import Divider from '@mui/material/Divider';
 import Drawer from '@mui/material/Drawer';
 import { FaFacebookF } from 'react-icons/fa';

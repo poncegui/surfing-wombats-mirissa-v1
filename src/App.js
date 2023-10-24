@@ -13,6 +13,7 @@ import Footer from './Components/Footer/Footer';
 import LocationMirissa from './Components/LocationMirissa';
 import MapMirissa from './Components/MapMirissa';
 import MenuPDF from './Components/pdf/MenuPDF';
+import RealPizza from './Components/RealPizza';
 import ScrollToUp from './Components/ScrollToUp';
 import SliderDisplay from './Components/sliderDisplay/SliderDisplay';
 import Work from './Components/Work';
@@ -28,6 +29,9 @@ function App() {
         <About />
         <Work />
         <SliderDisplay items={items} title='Our Food' slides={3} datas={food} buttons={buttonsMenu}/>
+        </div>
+        <RealPizza />
+        <div className="App">
         <SliderDisplay items={drink} title='Our Drinks & Cocktails' slides={3} datas={drinks} buttons={buttonsDrinks}/>
         </div>
         <LocationMirissa />

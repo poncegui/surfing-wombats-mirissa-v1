@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "./static/css/main.87327ce9.css",
-    "main.js": "./static/js/main.a21adfee.js",
+    "main.js": "./static/js/main.967fcb76.js",
     "static/media/video-cover.MOV": "./static/media/video-cover.2180441649575b3d79db.MOV",
     "static/media/cocktail-5.jpg": "./static/media/cocktail-5.dd212bf7653090011d67.jpg",
     "static/media/cocktail-4.jpg": "./static/media/cocktail-4.dcb48fa8c38bc9f898ed.jpg",
     "static/media/menu-kids.png": "./static/media/menu-kids.7b9bd09776041d982a8e.png",
+    "static/media/real-pizza.jpg": "./static/media/real-pizza.be7254a3e58e2ce89184.jpg",
     "static/media/pizzas-mar.png": "./static/media/pizzas-mar.29af952b0c285fed52e9.png",
     "static/media/cocktail-3.png": "./static/media/cocktail-3.c968f0aacc9e1428015d.png",
     "static/media/food-sea.png": "./static/media/food-sea.94af2f146944e1e8917d.png",
@@ -26,10 +27,10 @@
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "index.html": "./index.html",
     "main.87327ce9.css.map": "./static/css/main.87327ce9.css.map",
-    "main.a21adfee.js.map": "./static/js/main.a21adfee.js.map"
+    "main.967fcb76.js.map": "./static/js/main.967fcb76.js.map"
   },
   "entrypoints": [
     "static/css/main.87327ce9.css",
-    "static/js/main.a21adfee.js"
+    "static/js/main.967fcb76.js"
   ]
 }

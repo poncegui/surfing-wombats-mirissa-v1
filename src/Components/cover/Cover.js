@@ -99,7 +99,7 @@ const SurfingWombatsTitleContainer = styled.div`
 `;
 
 const ComingSoonTitle = styled.div`
-  margin-top:19rem;
+  margin-top:10rem;
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
