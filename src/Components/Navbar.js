@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 
 import Box from '@mui/material/Box';
-import { BsInstagram } from 'react-icons/bs';
+import { Link as Contact } from "react-scroll";
 import Divider from '@mui/material/Divider';
 import Drawer from '@mui/material/Drawer';
 import { FaFacebookF } from 'react-icons/fa';
@@ -19,7 +19,6 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import LocalBarIcon from '@mui/icons-material/LocalBar';
 import RestaurantMenuIcon from '@mui/icons-material/RestaurantMenu';
-import SentimentSatisfiedAltIcon from '@mui/icons-material/SentimentSatisfiedAlt';
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -32,17 +31,17 @@ const Navbar = () => {
     {
       text: 'About',
       icon: <InfoIcon />,
-      href: '/home',
+      href: '/about',
     },
     {
       text: 'Menu',
       icon: <RestaurantMenuIcon />,
-      href: '/home',
+      href: '/food-menu',
     },
     {
       text: 'Drinks & Cocktails',
       icon: <LocalBarIcon />,
-      href: '/home',
+      href: '/drinks&cocktails',
     },
     {
       text: 'Bookings by DM',
@@ -60,22 +59,19 @@ const Navbar = () => {
       <div className="navbar-links-container">
         <a href="/home">| Home |</a>
         <a href="/about"> | About |</a>
-        <a href=""> | Menu |</a>
-        <a href=""> | Cocktails |</a>
+        <a href="/food-menu"> | Menu |</a>
+        <a href="/drinks&cocktails"> | Cocktails |</a>
         <a href="/contact"> | Contact |</a>
         <a href="https://www.facebook.com/profile.php?id=10007809358703">
           <FaFacebookF className="navbar-cart-icon" />
         </a>
-        {/* <a href="">
-          <BsInstagram className="navbar-cart-icon" />
-        </a>  */}
         <Link
           to="https://www.instagram.com/surfingwombatsmirissa/?hl=es"
           target="_blank"
           rel="noreferrer"
         >
           <button className="primary-button">
-            <InstagramIcon className="navbar-cart-icon" /> ∼ Bookings by DM{' '}
+            <InstagramIcon className="navbar-cart-icon" /> ∼ Bookings by DM
           </button>
         </Link>
       </div>

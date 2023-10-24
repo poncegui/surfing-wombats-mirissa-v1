@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import logo from "./logos/logo-afymos.png";
 import styled from "styled-components";
 
-const Navbar = (props) => {
+const Navbar = props => {
   const handleBack = () => {
     window.history.back();
   };

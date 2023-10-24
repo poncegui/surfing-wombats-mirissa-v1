@@ -79,7 +79,7 @@ const SliderDisplay = ({ items, title , slides, buttons}) => {
             </Slider>
           </div>
           <SliderDisplayContainerButtons>
-      {buttons.map((button) => (
+            {buttons.map((button) => (
             <Link to={button.url}>
             <button className="secondary-button">{button.button}</button>
             </Link>
@@ -104,10 +104,20 @@ const SliderDisplayContainer = styled.div`
 `;
 
 const SliderDisplayContainerButtons = styled.div`
-display:flex;
-flex-direction:row;
-justify-content:center;
-align-items:center;
-gap: 10%;
-margin-top: 5%;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  gap: 10%;
+  margin-top: 5%;
+
+  @media (max-width: 840px) {
+      font-size: ${({ size }) => (size ? "1.2rem" : "1rem")};
+      margin-top: 10%;
+    }
+
+  @media (max-width: 440px) {
+      font-size: ${({ size }) => (size ? "1.2rem" : "1rem")};
+      margin-top: 15%;
+    }
 `;

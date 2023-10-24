@@ -20,12 +20,12 @@ const Cover = () => {
           <h1>Wombats</h1>
         </SurfingWombatsTitleContainer>
         <p>Chillinguito ∼ Mirissa </p>
-        {/* <ComingSoonTitle>
-          <h2> New season Coming soon! October ∼ 2023 </h2>
-        </ComingSoonTitle> */}
+        <ComingSoonTitle>
+          <h2>Best Pizza, best views.</h2>
+        </ComingSoonTitle>
       </CoverContainer>
       {/* <TitleSection
-        title="new season is coming soon!  ∼ october 2023  ∼"
+        title="Best Pizza, best views.  ∼"
         inverse
         margintTop
       /> */}
@@ -99,7 +99,7 @@ const SurfingWombatsTitleContainer = styled.div`
 `;
 
 const ComingSoonTitle = styled.div`
-  margin-top: 5rem;
+  margin-top:19rem;
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
@@ -111,7 +111,7 @@ const ComingSoonTitle = styled.div`
     font-weight: 200;
   }
 
-  @media (min-width: 440px) {
+  @media (min-width:860px) {
     display: none;
   }
 `;
