@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 const RealPizza = () => {
   return (
-    <RealPizzaContainer>
+    <RealPizzaContainer  id='pizza'>
       <img className="video" src={realPizza} alt='real-pizza' />
       <TextContainer>
         <h3>TRUE ITALIAN PIZZA</h3>

@@ -1,26 +1,41 @@
 import '../App.css';
 
-import About from '../App';
+import React, { useState } from "react"
+import {buttonsDrinks, buttonsMenu, drinks, food} from '../caruselData';
+
+import About from '../Components/About';
 import Contact from '../Components/Contact';
-import Footer from '../Components/Footer';
-import Home from '../Components/Home';
-import ScrollToTop from '../Components/ScrollToUp';
-import Testimonial from '../Components/Testimonial';
+import Cover from '../Components/cover/Cover';
+import Footer from '../Components/Footer/Footer';
+import LocationMirissa from '../Components/LocationMirissa';
+import MapMirissa from '../Components/MapMirissa';
+import RealPizza from '../Components/RealPizza';
+import SliderDisplay from '../Components/sliderDisplay/SliderDisplay';
 import Work from '../Components/Work';
 
-// eslint-disable-next-line
-
-const LandingView = () => {
+function App() {
+  const [items] = useState(food)
+  const [drink] = useState(drinks)
   return (
-    <div className="App">
-       <ScrollToTop />
-      <Home />
+    <>
+      <Cover />
+      <div className="App">
       <About />
       <Work />
-      <Testimonial />
+      <SliderDisplay items={items} title='Our Food' slides={3} datas={food} buttons={buttonsMenu} id='menu'/>
+      </div>
+      <RealPizza/>
+      <div className="App">
+      <SliderDisplay items={drink} title='Our Drinks & Cocktails' slides={3} datas={drinks} buttons={buttonsDrinks} id='drinks&cocktails'/>
+      </div>
+      <LocationMirissa />
+      <div className="App">
       <Contact />
+      <MapMirissa />
+      </div>
       <Footer />
-    </div>
+    </>
   );
-};
-export default LandingView;
+}
+
+export default App;

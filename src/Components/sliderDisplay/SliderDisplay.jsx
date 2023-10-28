@@ -31,7 +31,7 @@ const SamplePrevArrow =props => {
     </div>
   )
 }
-const SliderDisplay = ({ items, title , slides, buttons}) => {
+const SliderDisplay = ({slides,title,  id, items,  buttons}) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -63,7 +63,7 @@ const SliderDisplay = ({ items, title , slides, buttons}) => {
   return (
     <>
       <SliderDisplaySection>
-      <HeadingSection title={title}/>
+      <HeadingSection title={title} id={id}/>
         <SliderDisplayContainer>
           <div className='heading flexSB'>
           </div>

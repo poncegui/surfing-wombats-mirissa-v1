@@ -1,4 +1,5 @@
-import AboutBackground from '../Assets/images-food/dish-1.jpeg';
+// import AboutBackground from '../Assets/images-food/dish-1.jpeg';
+
 import AboutBackgroundImage from '../Assets/images-food/pizzas-mar.png';
 import { BsFillPlayCircleFill } from 'react-icons/bs';
 import React from 'react';
@@ -6,7 +7,7 @@ import styled from 'styled-components';
 
 const About = () => {
   return (
-    <div className="about-section-container" id='/about'>
+    <div className="about-section-container" id='about'>
       <div className="about-background-image-container">
         {/* <img src={AboutBackground} alt="" />  */}
       </div>

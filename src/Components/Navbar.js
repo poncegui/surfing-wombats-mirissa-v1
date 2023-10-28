@@ -17,10 +17,15 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import LocalBarIcon from '@mui/icons-material/LocalBar';
+import { Link as NavLink } from "react-scroll";
 import RestaurantMenuIcon from '@mui/icons-material/RestaurantMenu';
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
+  const [clicked, setClicked] = useState(false);
+  const handleClick = () => {
+    setClicked(!clicked);
+  };
   const menuOptions = [
     {
       text: 'Home',
@@ -56,11 +61,47 @@ const Navbar = () => {
   return (
     <nav>
       <div className="navbar-links-container">
-        <a href="/home">| Home |</a>
-        <a href="/about"> | About |</a>
-        <a href="/food-menu"> | Menu |</a>
-        <a href="/drinks&cocktails"> | Cocktails |</a>
-        <a href="/contact"> | Contact |</a>
+      <a href="/home">| Home |</a>
+      <NavLink
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={1000}
+            onClick={handleClick}
+          >
+           | About |
+          </NavLink>
+          <NavLink
+            to="menu"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={1000}
+            onClick={handleClick}
+          >
+           | Menu |
+          </NavLink>
+          <NavLink
+            to="drinks&cocktails"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={1000}
+            onClick={handleClick}
+          >
+          | Cocktails |
+          </NavLink>
+          <NavLink
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={1000}
+            onClick={handleClick}
+          >
+          | Contact |
+          </NavLink>
         <a href="https://www.facebook.com/profile.php?id=10007809358703">
           <FaFacebookF className="navbar-cart-icon" />
         </a>

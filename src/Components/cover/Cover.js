@@ -3,7 +3,7 @@ import './Cover.css';
 import BannerImage from '../../Assets/logo-wombats.png';
 import Navbar from '../Navbar';
 import React from 'react';
-import TitleSection from '../TitleSection';
+// import TitleSection from '../TitleSection';
 import coverVideo from '../../Assets/images-cover/background-1.jpg';
 import styled from 'styled-components';
 
