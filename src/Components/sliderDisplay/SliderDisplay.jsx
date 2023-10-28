@@ -7,8 +7,8 @@ import { Link } from "react-router-dom"
 import React from "react"
 import Slider from "react-slick"
 import Ucard from "./Ucard"
-import arrowLeft from '../../Assets/chevron-left.png'
-import arrowRight from '../../Assets/chevron-right.png'
+// import arrowLeft from '../../Assets/left.svg'
+// import arrowRight from '../../Assets/right.svg'
 import styled from 'styled-components';
 
 const SampleNextArrow =props => {
@@ -16,7 +16,7 @@ const SampleNextArrow =props => {
   return (
     <div className='control-btn' onClick={onClick}>
       <button className='next'>
-      <img src={arrowRight} alt='go right'/>
+      {/* <img src={arrowRight} alt='go right'/> */}
       </button>
     </div>
   )
@@ -26,7 +26,7 @@ const SamplePrevArrow =props => {
   return (
     <div className='control-btn' onClick={onClick}>
       <button className='prev'>
-        <img src={arrowLeft} alt='go'/>
+        {/* <img src={arrowLeft} alt='go'/> */}
       </button>
     </div>
   )

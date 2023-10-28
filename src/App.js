@@ -34,16 +34,17 @@ function App() {
         <div className="App">
         <SliderDisplay items={drink} title='Our Drinks & Cocktails' slides={3} datas={drinks} buttons={buttonsDrinks}/>
         </div>
+                <Routes>
+        <Route path='/food-menu' element={<MenuPDF />} />
+        <Route path="/kids-menu" element={<ChildMenuPDF />} />
+        <Route path="/drinks&cocktails" element={<DrinksPDF />} />
+        </Routes>
         <LocationMirissa />
         <div className="App">
         <Contact />
         <MapMirissa />
         </div>
-        <Routes>
-        <Route path='/food-menu' element={<MenuPDF />} />
-        <Route path="/kids-menu" element={<ChildMenuPDF />} />
-        <Route path="/drinks&cocktails" element={<DrinksPDF />} />
-        </Routes>
+
         <Footer />
     </>
   );

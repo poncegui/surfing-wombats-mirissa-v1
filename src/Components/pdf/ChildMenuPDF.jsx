@@ -24,7 +24,7 @@ class Pdf extends Component {
             id="download-kids-menu-pdf"
             download="kids-menu-surfing-wombats.pdf"
           >
-          Click to download file
+         jelou
           </a>
         </object>
       </div>

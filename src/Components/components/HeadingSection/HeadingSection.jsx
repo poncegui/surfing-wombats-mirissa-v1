@@ -30,4 +30,8 @@ const HeadingStyles = styled.div`
   justify-content: center;
   font-size: 24px;
 }
+  @media  (max-width: 768px) {
+
+
+}
 `;

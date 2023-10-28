@@ -7,6 +7,7 @@
     transition: 0.5s;
     border-left: 5px solid transparent;
   }
+  
   .MovieBox:hover {
     cursor: pointer;
     border-left: 5px solid #B95D5B;
@@ -55,10 +56,11 @@
   }
 
   /*---------------MovieBox-------------*/
-  @media only screen and (max-width: 768px) {
+  @media  (max-width: 440px) {
     .MovieBox {
       width: 320px;
       height: 250px;
+      border-left: 0px;
     }
   }
   /*---------------control-btn-------------*/
@@ -73,6 +75,14 @@
     color: #fff;
     font-weight: 500;
     font-size: 17px;
+  }
+  @media only screen and (max-width: 768px) {
+    .control-btn button {
+      background:rgba(255, 255, 255, 0.3);
+      width: 30px;
+      height: 30px;
+
+    }
   }
 
   .control-btn .next {
