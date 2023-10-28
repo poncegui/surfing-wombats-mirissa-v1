@@ -11,7 +11,7 @@ import arrowLeft from '../../Assets/chevron-left.png'
 import arrowRight from '../../Assets/chevron-right.png'
 import styled from 'styled-components';
 
-const SampleNextArrow = (props) => {
+const SampleNextArrow =props => {
   const { onClick } = props
   return (
     <div className='control-btn' onClick={onClick}>
@@ -21,7 +21,7 @@ const SampleNextArrow = (props) => {
     </div>
   )
 }
-const SamplePrevArrow = (props) => {
+const SamplePrevArrow =props => {
   const { onClick } = props
   return (
     <div className='control-btn' onClick={onClick}>
@@ -39,10 +39,10 @@ const SliderDisplay = ({ items, title , slides, buttons}) => {
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
-    autoplay: true,
-      speed: 2300,
-      autoplaySpeed: 2300,
-      cssEase: "linear",
+    // autoplay: true,
+    //   speed: 2300,
+    //   autoplaySpeed: 2300,
+    //   cssEase: "linear",
     responsive: [
       {
         breakpoint: 867,

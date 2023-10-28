@@ -1,4 +1,4 @@
-import '../Components/cover/Cover';
+import './cover/Cover';
 
 import React from 'react';
 import realPizza from '../Assets/images-food/real-pizza.jpg';

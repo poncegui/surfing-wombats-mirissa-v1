@@ -40,9 +40,9 @@ function App() {
         <MapMirissa />
         </div>
         <Routes>
-        <Route path="/menu-food" element={<MenuPDF />} />
+        <Route path='/food-menu' element={<MenuPDF />} />
         <Route path="/kids-menu" element={<ChildMenuPDF />} />
-        <Route path="/drinks&food" element={<DrinksPDF />} />
+        <Route path="/drinks&cocktails" element={<DrinksPDF />} />
         </Routes>
         <Footer />
     </>

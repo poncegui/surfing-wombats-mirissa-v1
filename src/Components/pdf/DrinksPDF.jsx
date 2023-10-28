@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Pdf extends Component {
   componentDidMount() {
     if (typeof window.orientation !== "undefined") {
-      document.getElementById("download-drinks-menu").click();
+      document.getElementById("cocktails-surfing-wombats.pdf").click();
       window.close();
     }
   }
@@ -21,7 +21,7 @@ class Pdf extends Component {
             href={require("./docs_pdf/cocktails-surfing-wombats.pdf")}
             rel="noreferrer"
             target="_blank"
-            id="download-drinks-menu"
+            id="cocktails-surfing-wombats.pdf"
             download="cocktails-surfing-wombats.pdf"
           >
             Click to download file

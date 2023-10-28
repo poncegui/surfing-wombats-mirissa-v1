@@ -147,6 +147,7 @@ nav {
 .secondary-button:hover {
   background-color: #f9efe4;
   color: #B95D5B;
+  border-color: #B95D5B;
 }
 .about-section-container {
   margin-top: 10rem;
@@ -168,7 +169,7 @@ nav {
 
 .about-section-image-container img{
   border-radius: 10px;
-  opacity: 0.7;
+  /* opacity: 0.9; */
 }
 
 .about-section-text-container {
