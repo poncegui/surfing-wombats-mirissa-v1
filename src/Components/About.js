@@ -15,10 +15,10 @@ const About = () => {
         <img src={AboutBackgroundImage} alt="pizza-on-the-sea" />
       </div>
       <div className="about-section-text-container">
-        <p className="primary-subheading">About</p>
-        <h1 className="primary-heading">
+        <h1 className="primary-subheading">| About |</h1>
+        <h2 className="primary-heading">
           food, drinks & surf
-        </h1>
+        </h2>
         <p className="primary-text">
           Our beach-front restaurant is perfect for people who wish to eat the
           best pizza in Sri Lanka. Located in the front of Mirissa Left surf

@@ -30,6 +30,9 @@ const LocationMirissaContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: end;
+  @media (max-width: 440px) {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(20, 20, 20, 0.4) 50%, rgba(83, 100, 141, 0) 100%);
+    }
 
   .video {
     object-fit: cover;
@@ -38,6 +41,7 @@ const LocationMirissaContainer = styled.div`
     position: absolute;
     z-index: -1;
     opacity: 0.6;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(20, 20, 20, 0.4) 50%, rgba(83, 100, 141, 0) 100%);
   }
 `;
 
@@ -83,6 +87,7 @@ const TextContainer = styled.div`
     width: 90%;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
+
     h3 {
       font-size: 2.5rem;
       text-align: center;

@@ -2,21 +2,21 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import "./SliderDisplay.css"
 
+import { FaChevronCircleLeft, FaChevronCircleRight } from 'react-icons/fa';
+
 import HeadingSection from "../components/HeadingSection/HeadingSection"
 import { Link } from "react-router-dom"
 import React from "react"
 import Slider from "react-slick"
 import Ucard from "./Ucard"
-// import arrowLeft from '../../Assets/left.svg'
-// import arrowRight from '../../Assets/right.svg'
 import styled from 'styled-components';
 
 const SampleNextArrow =props => {
   const { onClick } = props
   return (
     <div className='control-btn' onClick={onClick}>
-      <button className='next'>
-      {/* <img src={arrowRight} alt='go right'/> */}
+      <button className='next'  onClick={onClick}>
+      <FaChevronCircleRight aria-label="next-picture" focusable size={40} style={{ fill: '#fff;' }} />
       </button>
     </div>
   )
@@ -25,8 +25,8 @@ const SamplePrevArrow =props => {
   const { onClick } = props
   return (
     <div className='control-btn' onClick={onClick}>
-      <button className='prev'>
-        {/* <img src={arrowLeft} alt='go'/> */}
+      <button className='prev'  onClick={onClick}>
+        <FaChevronCircleLeft  aria-label='previous-picture' size={40} style={{ fill: '#fff;' }}/>
       </button>
     </div>
   )
@@ -96,6 +96,7 @@ export default SliderDisplay
 
 const SliderDisplaySection = styled.section`
   margin:10% auto;
+
 `;
 
 const SliderDisplayContainer = styled.div`

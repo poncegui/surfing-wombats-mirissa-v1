@@ -21,7 +21,8 @@ const Cover = () => {
         </SurfingWombatsTitleContainer>
         <p>Chillinguito ∼ Mirissa </p>
         <ComingSoonTitle>
-          <h2>Best Pizza, best views.</h2>
+          <h2>The Best Pizza, </h2>
+          <h2>the best views.</h2>
         </ComingSoonTitle>
       </CoverContainer>
       {/* <TitleSection

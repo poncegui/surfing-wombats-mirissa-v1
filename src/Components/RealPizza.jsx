@@ -27,6 +27,9 @@ const RealPizzaContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: end;
+  @media (max-width: 440px) {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(20, 20, 20, 0.4) 50%, rgba(83, 100, 141, 0) 100%);
+    }
 
   .video {
     object-fit: cover;
@@ -39,12 +42,13 @@ const RealPizzaContainer = styled.div`
 `;
 
 const TextContainer = styled.div`
+margin-bottom: 14rem;
   display: flex;
   flex-direction: column;
   justify-content: end;
   align-items: end;
   width: 50%;
-  margin-right: 50px;
+  margin-right: 30px;
   text-align: right;
 
   h3 {

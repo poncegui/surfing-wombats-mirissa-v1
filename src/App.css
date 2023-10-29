@@ -20,6 +20,15 @@ img {
   max-width: 1900px;
   margin: 0rem auto;
 }
+
+/* @media (max-width: 440px) {
+  .App {
+
+    width: 100vw;
+ margin: 0px;
+  }
+} */
+
 body {
   max-width: 100%;
   overflow-x: hidden;
@@ -179,9 +188,10 @@ nav {
   flex-direction: column;
 }
 .primary-subheading {
-  font-weight: 700;
+  font-weight: 300;
   color: #B95D5B;
-  font-size: 1.15rem;
+  font-size: 2rem;
+  margin-bottom: 3%;
 }
 .about-buttons-container {
   margin-top: 2rem;
