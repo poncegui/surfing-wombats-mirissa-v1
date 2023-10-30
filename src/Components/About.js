@@ -39,22 +39,3 @@ const About = () => {
 };
 
 export default About;
-
-const AboutSectionContainer = styled.div`
-  margin-top: 5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  h2 {
-    font-size: 3rem;
-    color: #3e3e3d;
-    font-weight: 200;
-  }
-
-  @media (max-width: 440px) {
-    flex-direction: column;
-    gap: 1.2rem;
-    text-align: left;
-    width: 70%;
-  }
-`;

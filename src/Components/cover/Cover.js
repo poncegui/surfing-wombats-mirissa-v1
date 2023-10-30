@@ -3,7 +3,7 @@ import './Cover.css';
 import BannerImage from '../../Assets/logo-wombats.png';
 import Navbar from '../Navbar';
 import React from 'react';
-// import TitleSection from '../TitleSection';
+import TitleSection from '../../Components/TitleSection';
 import coverVideo from '../../Assets/images-cover/background-1.jpg';
 import styled from 'styled-components';
 
@@ -21,15 +21,15 @@ const Cover = () => {
         </SurfingWombatsTitleContainer>
         <p>Chillinguito ∼ Mirissa </p>
         <ComingSoonTitle>
-          <h2>The Best Pizza, </h2>
-          <h2>the best views.</h2>
+          <h2>OPENED EVERYDAY </h2>
+          <h2>FROM 1PM TILL 9:30PM</h2>
         </ComingSoonTitle>
       </CoverContainer>
-      {/* <TitleSection
-        title="Best Pizza, best views.  ∼"
+      <TitleSection
+        title="OPENED EVERYDAY ∼ FROM 1PM TILL 9:30PM"
         inverse
         margintTop
-      /> */}
+      />
     </>
   );
 };
