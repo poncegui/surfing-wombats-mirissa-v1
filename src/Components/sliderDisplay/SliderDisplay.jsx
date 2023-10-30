@@ -16,7 +16,7 @@ const SampleNextArrow =props => {
   return (
     <div className='control-btn' onClick={onClick}>
       <button className='next'  onClick={onClick}>
-      <FaChevronCircleRight aria-label="next-picture" focusable size={40} color= 'white'  />
+      <FaChevronCircleRight aria-label="next-picture" focusable size={30} color= 'white'  />
       </button>
     </div>
   )
@@ -26,7 +26,7 @@ const SamplePrevArrow =props => {
   return (
     <div className='control-btn' onClick={onClick}>
       <button className='prev'  onClick={onClick}>
-        <FaChevronCircleLeft  aria-label='previous-picture' size={40} color= 'white'/>
+        <FaChevronCircleLeft  aria-label='previous-picture' size={30} color= 'white'/>
       </button>
     </div>
   )

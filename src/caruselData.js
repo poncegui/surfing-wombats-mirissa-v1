@@ -36,7 +36,7 @@ export const food = [
   {
     id: 1,
     cover: food1,
-    title: "Burrata",
+    title: "Burrata Salad",
   },
   {
     id: 2,
