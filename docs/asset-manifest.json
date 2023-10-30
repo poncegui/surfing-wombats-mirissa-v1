@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "./static/css/main.ce44ee98.css",
+    "main.js": "./static/js/main.0dce6701.js",
+    "static/media/video-cover.MOV": "./static/media/video-cover.2180441649575b3d79db.MOV",
+    "static/media/cocktail-5.jpg": "./static/media/cocktail-5.dd212bf7653090011d67.jpg",
+    "static/media/cocktail-4.jpg": "./static/media/cocktail-4.dcb48fa8c38bc9f898ed.jpg",
+    "static/media/menu-kids.png": "./static/media/menu-kids.7b9bd09776041d982a8e.png",
+    "static/media/real-pizza.jpg": "./static/media/real-pizza.be7254a3e58e2ce89184.jpg",
+    "static/media/pizzas-mar.png": "./static/media/pizzas-mar.29af952b0c285fed52e9.png",
+    "static/media/cocktail-3.png": "./static/media/cocktail-3.c968f0aacc9e1428015d.png",
+    "static/media/food-sea.png": "./static/media/food-sea.94af2f146944e1e8917d.png",
+    "static/media/langostinos.png": "./static/media/langostinos.dca25a1191b217cc83ed.png",
+    "static/media/cocktail-2.png": "./static/media/cocktail-2.500e96edf3ee2e3e4127.png",
+    "static/media/cocktail-1.png": "./static/media/cocktail-1.ee4feb231731d69590f4.png",
+    "static/media/map-mirissa-pencil.png": "./static/media/map-mirissa-pencil.dd70a3e96921301b5817.png",
+    "static/media/cocktails-surfing-wombats.pdf": "./static/media/cocktails-surfing-wombats.f782122c240ef2edd985.pdf",
+    "static/media/background-1.jpg": "./static/media/background-1.e83809009d637afa81f4.jpg",
+    "static/media/menu-surfing-wombats.pdf": "./static/media/menu-surfing-wombats.fa06cf4d1ff4cb1eebeb.pdf",
+    "static/media/dish-1.jpeg": "./static/media/dish-1.244f01e36b872b522686.jpeg",
+    "static/media/kids-menu-surfing-wombats.pdf": "./static/media/kids-menu-surfing-wombats.b4eca3579da320ea18fd.pdf",
+    "static/media/Laquatsa.ttf": "./static/media/Laquatsa.4ed2ad784a85a6e5aae9.ttf",
+    "static/media/logo-wombats.png": "./static/media/logo-wombats.06c373a0884ca7de6968.png",
+    "static/media/slick.svg": "./static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "./static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "./index.html",
+    "main.ce44ee98.css.map": "./static/css/main.ce44ee98.css.map",
+    "main.0dce6701.js.map": "./static/js/main.0dce6701.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce44ee98.css",
+    "static/js/main.0dce6701.js"
+  ]
+}
