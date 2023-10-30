@@ -3,7 +3,6 @@
 import AboutBackgroundImage from '../Assets/images-food/pizzas-mar.png';
 import { BsFillPlayCircleFill } from 'react-icons/bs';
 import React from 'react';
-import styled from 'styled-components';
 
 const About = () => {
   return (
@@ -28,10 +27,12 @@ const About = () => {
         </p>
         <p className="primary-text">Let the good times roll!</p>
         <div className="about-buttons-container">
-          <button className="secondary-button">Learn More</button>
+          {/* <button className="secondary-button">Learn More</button> */}
+          <a href="https://www.instagram.com/reel/Clfp_-bIVz3/?igshid=MTc4MmM1YmI2Ng==" target='_blank' rel='noreferrer'>
           <button className="watch-video-button">
             <BsFillPlayCircleFill /> Watch Video
           </button>
+          </a>
         </div>
       </div>
     </div>

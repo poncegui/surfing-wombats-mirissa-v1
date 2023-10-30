@@ -42,31 +42,26 @@ export const food = [
     id: 2,
     cover:food4,
     title: "Pasta",
-    subtitle: "xxxxx",
   },
   {
     id: 3,
     cover: food3,
     title: "Romescu Prawns",
-    subtitle: "xxxxx",
   },
   {
     id: 4,
     cover: food7,
     title: "Real Pizza",
-    subtitle: "xxxxx",
   },
   {
     id: 5,
     cover:food5,
     title: "Pizza",
-    subtitle: "xxxxx",
   },
   {
     id: 6,
     cover:food6,
     title: "Pan Fried Fish W Gnocchi & Hummus Dip (Vegan)",
-    subtitle: "xxxxx",
   },
 
 ]

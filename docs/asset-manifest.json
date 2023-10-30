@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.aa2c95f4.css",
-    "main.js": "./static/js/main.7f6aba92.js",
+    "main.js": "./static/js/main.fdc16e4b.js",
     "static/media/video-cover.MOV": "./static/media/video-cover.2180441649575b3d79db.MOV",
     "static/media/cocktail-4.jpg": "./static/media/cocktail-4.dd212bf7653090011d67.jpg",
     "static/media/menu-kids.png": "./static/media/menu-kids.7b9bd09776041d982a8e.png",
@@ -15,9 +15,9 @@
     "static/media/hummus.jpg": "./static/media/hummus.3b4825969b3475da48dd.jpg",
     "static/media/map-mirissa-pencil.png": "./static/media/map-mirissa-pencil.dd70a3e96921301b5817.png",
     "static/media/dish-1.jpeg": "./static/media/dish-1.7cc05caa45d84927a30a.jpeg",
+    "static/media/menu-surfing-wombats.pdf": "./static/media/menu-surfing-wombats.1bf10fcd140b87a6689c.pdf",
     "static/media/cocktails-surfing-wombats.pdf": "./static/media/cocktails-surfing-wombats.f782122c240ef2edd985.pdf",
     "static/media/background-1.jpg": "./static/media/background-1.e83809009d637afa81f4.jpg",
-    "static/media/menu-surfing-wombats.pdf": "./static/media/menu-surfing-wombats.fa06cf4d1ff4cb1eebeb.pdf",
     "static/media/kids-menu-surfing-wombats.pdf": "./static/media/kids-menu-surfing-wombats.b4eca3579da320ea18fd.pdf",
     "static/media/Laquatsa.ttf": "./static/media/Laquatsa.4ed2ad784a85a6e5aae9.ttf",
     "static/media/logo-wombats.png": "./static/media/logo-wombats.06c373a0884ca7de6968.png",
@@ -27,10 +27,10 @@
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "index.html": "./index.html",
     "main.aa2c95f4.css.map": "./static/css/main.aa2c95f4.css.map",
-    "main.7f6aba92.js.map": "./static/js/main.7f6aba92.js.map"
+    "main.fdc16e4b.js.map": "./static/js/main.fdc16e4b.js.map"
   },
   "entrypoints": [
     "static/css/main.aa2c95f4.css",
-    "static/js/main.7f6aba92.js"
+    "static/js/main.fdc16e4b.js"
   ]
 }
