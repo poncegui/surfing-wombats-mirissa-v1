@@ -7,28 +7,32 @@ export const Container = styled.div`
 
 export const Wrapper = styled.div`
   width: 100%;
-  max-width: 1300px;
-  height: 100%;
-  display: flex;
+
+  /* display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
+  justify-content: space-between;
+  align-items: center; */
+  margin-top: 3rem;
+
+  @media  (max-width: 860px) {
+    margin-top: 2rem;
+  }
 `;
 
 export const Menu = styled.ul`
   height: 100%;
   display: flex;
   justify-content: space-between;
+  align-items:center;
   list-style: none;
 
   @media  (max-width: 960px) {
     background-color: #B95D5B;
     position: absolute;
-    top: 70px;
+    top: 6rem;
     left: ${({ open }) => (open ? "0" : "-100%")}; //Import
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -40,7 +44,6 @@ export const MenuItem = styled.li`
   height: 100%;
 
   @media  (max-width: 960px) {
-    /* width: 100%; */
     height: 70px;
     display: flex;
     justify-content: center;

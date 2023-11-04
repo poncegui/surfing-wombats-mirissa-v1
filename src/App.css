@@ -21,14 +21,6 @@ img {
   margin: 0rem auto;
 }
 
-/* @media (max-width: 440px) {
-  .App {
-
-    width: 100vw;
- margin: 0px;
-  }
-} */
-
 body {
   max-width: 100%;
   overflow-x: hidden;
@@ -45,6 +37,7 @@ body {
 
 .title-navbar {
   font-size: 1.3rem;
+  margin-bottom: 5rem;
 }
 
 @media (min-width: 860px) {
@@ -55,6 +48,11 @@ body {
 
 .links-size {
   font-size: 1.2rem;
+}
+
+.links-size:hover {
+  text-decoration:line-through rgb(55, 56, 56);
+      transition: all 0.3s ease-out;
 }
 
 .navbar-menu-container {
@@ -92,7 +90,6 @@ body {
   position: -30%;
   margin-top: 2rem;
    padding: 0.5rem 1.2rem;
-   background-color: #f9efe4;
    outline: none;
    border: none;
    border-radius: 5rem;
@@ -101,7 +98,21 @@ body {
    font-weight: 600;
    transition: 0.2s;
    letter-spacing: 2px;
+   background-color: #f9efe4;
  }
+ .nav-button:hover{
+  margin-top: 0;
+  margin-right: 2rem;
+  background-color: #dbd7d7;
+}
+
+ @media (min-width: 860px) {
+  .nav-button{
+    margin-top: 0;
+    margin-right: 2rem;
+    border: #B95D5B;
+  }
+}
 .navbar-cart-icon {
   font-size: 1.15rem;
 }
@@ -120,7 +131,9 @@ body {
 
 .navbar-heading-image{
   width:6.25rem;
+  margin-bottom: 3rem;
 }
+
 @media (min-width: 860px) {
   .navbar-heading-image{
     display: none;

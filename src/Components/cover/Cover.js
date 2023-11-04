@@ -16,7 +16,11 @@ const Cover = () => {
         <img className="background" src={coverVideo} alt="" />
         <SurfingWombatsTitleContainer>
           <h1>Surfing</h1>
-          <img className="primary-heading-image" src={BannerImage} alt="logo-wombats" />
+          <img
+            className="primary-heading-image"
+            src={BannerImage}
+            alt="logo-wombats"
+          />
           <h1>Wombats</h1>
         </SurfingWombatsTitleContainer>
         <p>Chillinguito ∼ Mirissa </p>
@@ -82,6 +86,7 @@ const SurfingWombatsTitleContainer = styled.div`
   display: flex;
   flex-direction: row;
   gap: 2rem;
+  margin-top: 12rem;
 
   @media (max-width: 440px) {
     margin-top: 3rem;
@@ -91,17 +96,17 @@ const SurfingWombatsTitleContainer = styled.div`
     gap: 1.2rem;
   }
 
-  h1{
+  h1 {
     font-size: clamp(3rem, 5vw, 5rem);
-  color:#B95D5B;
-  max-width: 800px;
-  letter-spacing: 5px;
-  font-weight: 300;
+    color: #b95d5b;
+    max-width: 800px;
+    letter-spacing: 5px;
+    font-weight: 300;
   }
 `;
 
 const ComingSoonTitle = styled.div`
-  margin-top:10rem;
+  margin-top: 10rem;
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
@@ -113,7 +118,7 @@ const ComingSoonTitle = styled.div`
     font-weight: 200;
   }
 
-  @media (min-width:860px) {
+  @media (min-width: 860px) {
     display: none;
   }
 `;

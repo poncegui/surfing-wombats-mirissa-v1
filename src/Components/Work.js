@@ -1,7 +1,6 @@
 import React from "react";
 
 const Work = () => {
-
   return (
     <div className="work-section-wrapper" id='menu'>
       <div className="work-section-top">

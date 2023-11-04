@@ -19,12 +19,12 @@ export default TitleSection;
 const TitleSectionContainer = styled.div`
   display: flex;
   width: 100%;
-  height: 7rem;
+  height: 4rem;
   background: ${({ inverse }) => (inverse ? "#B95D5B" : "#f9efe4")};
   text-align: center;
   align-items: center;
   line-height: 1.5rem;
-  font-size: ${({ size }) => (size ? "1.8rem" : "1.5rem")};
+  font-size: ${({ size }) => (size ? "1.3rem" : "1rem")};
   margin-bottom: ${({ marginBottom }) => (marginBottom ? "2rem" : "")};
   margin-top: ${({ marginTop }) => (marginTop ? "2rem" : "")};
   letter-spacing:2px;
