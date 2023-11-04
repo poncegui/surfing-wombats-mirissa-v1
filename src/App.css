@@ -43,18 +43,18 @@ body {
   letter-spacing: -5px;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  min-height: 90px;
-  padding: 3% 10% 10% 3%;
+.title-navbar {
+  font-size: 1.3rem;
 }
 
-@media (max-width: 440px) {
-  nav{
-    padding: 0;
+@media (min-width: 860px) {
+  .title-navbar {
+   display: none;
   }
+}
+
+.links-size {
+  font-size: 1.2rem;
 }
 
 .navbar-menu-container {
@@ -115,9 +115,17 @@ nav {
 
 
 .primary-heading-image{
-  width:100px;
+  width:6.25rem;
 }
 
+.navbar-heading-image{
+  width:6.25rem;
+}
+@media (min-width: 860px) {
+  .navbar-heading-image{
+    display: none;
+}
+}
 .primary-heading {
   font-size: clamp(2.5rem, 5vw, 3rem);
   color:#B95D5B;
@@ -225,6 +233,9 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.watch-video-button:hover {
+  color: #B95D5B;
 }
 .watch-video-button svg {
   font-size: 3rem;

@@ -25,13 +25,13 @@ const Navbar = () => {
           </MobileIcon>
           <Menu open={showMobileMenu}>
             <img
-              className="primary-heading-image"
+              className="navbar-heading-image"
               src={BannerImageGrey}
               alt="logo-wombats"
             />
             <MenuItem>
               <MenuItemLink>
-                <div>Surfing Wombats Mirissa</div>
+                <div className="title-navbar">Surfing Wombats Mirissa</div>
               </MenuItemLink>
             </MenuItem>
             <MenuItem>
@@ -43,7 +43,7 @@ const Navbar = () => {
                 duration={3000}
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
               >
-                <div>| Home |</div>
+                <div className="links-size">| Home |</div>
               </MenuItemLink>
             </MenuItem>
             <MenuItem>
@@ -55,7 +55,7 @@ const Navbar = () => {
                 duration={3000}
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
               >
-                | About |
+                <div className="links-size"> | About |</div>
               </MenuItemLink>
             </MenuItem>
             <MenuItem>
@@ -67,7 +67,7 @@ const Navbar = () => {
                 duration={3000}
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
               >
-                <div>| Menu & Drinks |</div>
+                <div className="links-size">| Menu & Drinks |</div>
               </MenuItemLink>
             </MenuItem>
             <MenuItem>
@@ -76,10 +76,10 @@ const Navbar = () => {
                 spy={true}
                 smooth={true}
                 offset={-100}
-                duration={3000}
+                duration={4000}
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
               >
-                <div>| Location |</div>
+                <div className="links-size">| Location |</div>
               </MenuItemLink>
             </MenuItem>
             <MenuItem>

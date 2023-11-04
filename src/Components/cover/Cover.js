@@ -84,6 +84,7 @@ const SurfingWombatsTitleContainer = styled.div`
   gap: 2rem;
 
   @media (max-width: 440px) {
+    margin-top: 3rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
