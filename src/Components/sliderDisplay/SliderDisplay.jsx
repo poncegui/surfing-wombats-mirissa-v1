@@ -31,7 +31,8 @@ const SamplePrevArrow =props => {
     </div>
   )
 }
-const SliderDisplay = ({slides,title,  id, items,  buttons}) => {
+const 
+SliderDisplay = ({slides,title,  id, items,  buttons}) => {
   const settings = {
     dots: true,
     infinite: true,

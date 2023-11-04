@@ -3,7 +3,7 @@ import React from "react";
 const Work = () => {
 
   return (
-    <div className="work-section-wrapper">
+    <div className="work-section-wrapper" id='menu'>
       <div className="work-section-top">
         <p className="primary-subheading">| Discover our Menu |</p>
         <h1 className="primary-heading">Food, Drinks  & Cocktails</h1>

@@ -16,7 +16,7 @@ const Cover = () => {
         <img className="background" src={coverVideo} alt="" />
         <SurfingWombatsTitleContainer>
           <h1>Surfing</h1>
-          <img className="primary-heading-image" src={BannerImage} alt="" />
+          <img className="primary-heading-image" src={BannerImage} alt="logo-wombats" />
           <h1>Wombats</h1>
         </SurfingWombatsTitleContainer>
         <p>Chillinguito ∼ Mirissa </p>

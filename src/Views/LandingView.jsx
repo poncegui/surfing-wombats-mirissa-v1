@@ -21,12 +21,12 @@ function App() {
       <Cover />
       <div className="App">
       <About />
-      <Work />
-      <SliderDisplay items={items} title='Our Food' slides={3} datas={food} buttons={buttonsMenu} id='menu'/>
+      <Work  />
+      <SliderDisplay items={items} title='Our Food' slides={3} datas={food} buttons={buttonsMenu}/>
       </div>
       <RealPizza/>
       <div className="App">
-      <SliderDisplay items={drink} title='Our Drinks & Cocktails' slides={3} datas={drinks} buttons={buttonsDrinks} id='drinks&cocktails'/>
+      <SliderDisplay items={drink} title='Our Drinks & Cocktails' slides={3} datas={drinks} buttons={buttonsDrinks} />
       </div>
       <LocationMirissa />
       <div className="App">

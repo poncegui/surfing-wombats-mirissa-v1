@@ -88,6 +88,20 @@ nav {
   transition: 0.2s;
   letter-spacing: 2px;
 }
+.nav-button {
+  position: -30%;
+  margin-top: 2rem;
+   padding: 0.5rem 1.2rem;
+   background-color: #f9efe4;
+   outline: none;
+   border: none;
+   border-radius: 5rem;
+   font-size: 0.8rem;
+   cursor: pointer;
+   font-weight: 600;
+   transition: 0.2s;
+   letter-spacing: 2px;
+ }
 .navbar-cart-icon {
   font-size: 1.15rem;
 }

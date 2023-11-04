@@ -6,7 +6,7 @@ import styled from 'styled-components';
 
 const LocationMirissa = () => {
   return (
-    <LocationMirissaContainer>
+    <LocationMirissaContainer >
       <video className="video" src={coverVideo} autoPlay loop muted />
       <TextContainer>
         <h3>where the ocean meets the jungle</h3>
