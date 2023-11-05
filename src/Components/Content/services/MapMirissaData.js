@@ -11,5 +11,5 @@ export const mapMirissaData = {
   buttonLabel: "Saber más",
   img: pencilMap,
   click: "",
-  alt:"mirissa-map",
+  alt: "mirissa-map",
 };

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Ucard = ({ item: { cover, title, subtitle } }) => {
+const Ucard = ({ item: { cover, title } }) => {
   return (
     <>
       <div className="MovieBox">
@@ -9,7 +9,6 @@ const Ucard = ({ item: { cover, title, subtitle } }) => {
         </div>
         <div className="text">
           <h3>{title}</h3>
-          {/* <span>{subtitle}</span> */}
         </div>
       </div>
     </>

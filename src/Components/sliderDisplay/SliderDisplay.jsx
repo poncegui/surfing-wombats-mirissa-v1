@@ -89,7 +89,9 @@ const SliderDisplay = ({ slides, title, id, items, buttons }) => {
           <SliderDisplayContainerButtons>
             {buttons.map((button) => (
               <Link to={button.url}>
-                <button className="secondary-button">{button.button}</button>
+                <button className="secondary-button" key={button.id}>
+                  {button.button}{" "}
+                </button>
               </Link>
             ))}
           </SliderDisplayContainerButtons>

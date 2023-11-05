@@ -30,9 +30,7 @@ const Navbar = () => {
               alt="logo-wombats"
             />
             <MenuItem>
-              <MenuItemLink>
-                <div className="title-navbar">Surfing Wombats Mirissa</div>
-              </MenuItemLink>
+              <div className="title-navbar">Surfing Wombats Mirissa</div>
             </MenuItem>
             <MenuItem>
               <MenuItemLink
@@ -42,6 +40,7 @@ const Navbar = () => {
                 offset={-100}
                 duration={3000}
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
+                role="link"
               >
                 <div className="links-size">| Home |</div>
               </MenuItemLink>
@@ -54,6 +53,7 @@ const Navbar = () => {
                 offset={-100}
                 duration={3000}
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
+                role="link"
               >
                 <div className="links-size"> | About |</div>
               </MenuItemLink>
@@ -66,6 +66,7 @@ const Navbar = () => {
                 offset={-100}
                 duration={3000}
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
+                role="link"
               >
                 <div className="links-size">| Menu & Drinks |</div>
               </MenuItemLink>
@@ -78,6 +79,7 @@ const Navbar = () => {
                 offset={-100}
                 duration={4000}
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
+                role="link"
               >
                 <div className="links-size">| Location |</div>
               </MenuItemLink>
@@ -87,9 +89,9 @@ const Navbar = () => {
                 to="https://www.instagram.com/surfingwombatsmirissa/?hl=es"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="go to instagram"
+                aria-label="Bookings"
               >
-                <button className="nav-button">
+                <button className="nav-button" role="link" name="link">
                   <FaInstagram className="navbar-cart-icon" /> ∼ Bookings by DM
                 </button>
               </Link>
