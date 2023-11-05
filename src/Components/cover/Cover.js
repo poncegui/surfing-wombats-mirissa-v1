@@ -113,7 +113,7 @@ const ComingSoonTitle = styled.div`
   text-align: left;
   width: 70%;
   h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #3e3e3d;
     font-weight: 200;
   }

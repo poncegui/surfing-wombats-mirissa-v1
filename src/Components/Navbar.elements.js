@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: 5rem;
+  height: 3rem;
 `;
 
 export const Wrapper = styled.div`
@@ -32,11 +32,12 @@ export const Menu = styled.ul`
     top: 6rem;
     left: ${({ open }) => (open ? "0" : "-100%")}; //Import
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     transition: 0.5s all ease;
+    z-index: 10;
   }
 `;
 
