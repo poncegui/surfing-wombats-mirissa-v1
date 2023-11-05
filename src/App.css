@@ -184,6 +184,11 @@ body {
   justify-content: center;
   letter-spacing: 2px;
 }
+@media (max-width: 440px) {
+  .secondary-button{
+    padding: 0.7rem 1.2rem;
+  }
+}
 .secondary-button svg {
   margin-left: 0.75rem;
   font-size: 1.5rem;
@@ -486,7 +491,7 @@ color:#f9efe4;
   }
   .secondary-button {
     font-size: 1rem;
-    padding: 0.8rem 2rem;
+    padding: 0.8rem 1.2rem;
     cursor: pointer;
   }
   .about-section-container {

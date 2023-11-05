@@ -46,7 +46,7 @@ export const food = [
   {
     id: 3,
     cover: food3,
-    title: "Romescu Prawns",
+    title: "Romesco Prawns",
   },
   {
     id: 4,
@@ -61,7 +61,7 @@ export const food = [
   {
     id: 6,
     cover:food6,
-    title: "Pan Fried Fish W Gnocchi & Hummus Dip (Vegan)",
+    title: "Hummus Dip (Vegan)",
   },
 
 ]
