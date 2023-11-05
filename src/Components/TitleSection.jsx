@@ -27,18 +27,18 @@ const TitleSectionContainer = styled.div`
   font-size: ${({ size }) => (size ? "1.3rem" : "1rem")};
   margin-bottom: ${({ marginBottom }) => (marginBottom ? "2rem" : "")};
   margin-top: ${({ marginTop }) => (marginTop ? "2rem" : "")};
-  letter-spacing:2px;
+  letter-spacing: 2px;
   h2 {
     width: 100%;
     position: relative;
     color: ${({ inverse }) => (inverse ? "#f9efe4" : "#B95D5B")};
-   letter-spacing: 2px;
+    letter-spacing: 2px;
   }
 
   @media (max-width: 440px) {
     /* font-size: ${({ size }) => (size ? "1.2rem" : "1rem")};
     line-height: 2.5rem; */
 
-    display:none;
+    display: none;
   }
 `;

@@ -66,10 +66,10 @@ export const TopLine = styled.div`
   margin-bottom: 1.3rem;
   color: grey;
   text-decoration: none;
-  letter-spacing:1.5px;
+  letter-spacing: 1.5px;
 
   @media (max-width: 440px) {
-    margin-top:15px;
+    margin-top: 15px;
   }
 `;
 
@@ -106,7 +106,7 @@ export const Heading = styled.h2`
 export const Subtitle = styled.p`
   max-width: 440px;
   /* margin-bottom: 35px; */
-  line-height:35px;
+  line-height: 35px;
   font-size: 1.2rem;
   color: ${({ inverse }) => (inverse ? "#6a6a6a" : "#FFC0BC")};
 `;

@@ -1,16 +1,22 @@
-import './cover/Cover';
+import "./cover/Cover";
 
-import React from 'react';
-import realPizza from '../Assets/images-food/real-pizza.jpg';
-import styled from 'styled-components';
+import React from "react";
+import realPizza from "../Assets/images-food/real-pizza.jpg";
+import styled from "styled-components";
 
 const RealPizza = () => {
   return (
-    <RealPizzaContainer  id='food-menu'>
-      <img className="video" src={realPizza} alt='real-pizza' />
+    <RealPizzaContainer id="food-menu">
+      <img className="video" src={realPizza} alt="real-pizza" />
       <TextContainer>
         <h3>TRUE ITALIAN PIZZA</h3>
-        <p>Our owner, being a proud and passionate Italian, has the highest of standards for pizza!! So We decided to open an authentic Italian restaurant with wood fired pizzas, salads, specialty desserts and appetizers all made from scratch. The restaurant is also open for breakfast with a variety of fresh juices, smoothies and healthy meals to power you though another day of Wombat adventures.
+        <p>
+          Our owner, being a proud and passionate Italian, has the highest of
+          standards for pizza!! So We decided to open an authentic Italian
+          restaurant with wood fired pizzas, salads, specialty desserts and
+          appetizers all made from scratch. The restaurant is also open for
+          breakfast with a variety of fresh juices, smoothies and healthy meals
+          to power you though another day of Wombat adventures.
         </p>
       </TextContainer>
     </RealPizzaContainer>
@@ -28,8 +34,13 @@ const RealPizzaContainer = styled.div`
   justify-content: center;
   align-items: end;
   @media (max-width: 440px) {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(20, 20, 20, 0.4) 50%, rgba(83, 100, 141, 0) 100%);
-    }
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(20, 20, 20, 0.4) 50%,
+      rgba(83, 100, 141, 0) 100%
+    );
+  }
 
   .video {
     object-fit: cover;
@@ -42,7 +53,7 @@ const RealPizzaContainer = styled.div`
 `;
 
 const TextContainer = styled.div`
-margin-bottom: 14rem;
+  margin-bottom: 14rem;
   display: flex;
   flex-direction: column;
   justify-content: end;

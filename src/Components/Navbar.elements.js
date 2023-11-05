@@ -7,14 +7,9 @@ export const Container = styled.div`
 
 export const Wrapper = styled.div`
   width: 100%;
-
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center; */
   margin-top: 3rem;
 
-  @media  (max-width: 860px) {
+  @media (max-width: 860px) {
     margin-top: 2rem;
   }
 `;
@@ -23,11 +18,11 @@ export const Menu = styled.ul`
   height: 100%;
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
   list-style: none;
 
-  @media  (max-width: 960px) {
-    background-color: #B95D5B;
+  @media (max-width: 960px) {
+    background-color: #b95d5b;
     position: absolute;
     top: 6rem;
     left: ${({ open }) => (open ? "0" : "-100%")}; //Import
@@ -44,12 +39,12 @@ export const Menu = styled.ul`
 export const MenuItem = styled.li`
   height: 100%;
 
-  @media  (max-width: 960px) {
+  @media (max-width: 960px) {
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#f9efe4;
+    color: #f9efe4;
   }
 `;
 
@@ -91,7 +86,7 @@ export const MenuItemLink = styled.a`
     }
   }
 
-  @media  (max-width: 960px) {
+  @media (max-width: 960px) {
     width: 100%;
 
     div {
@@ -104,7 +99,7 @@ export const MenuItemLink = styled.a`
     }
   }
 
-  @media  (max-width: 880px) {
+  @media (max-width: 880px) {
     div {
       width: 40%;
       justify-content: left;
@@ -115,7 +110,7 @@ export const MenuItemLink = styled.a`
     }
   }
 
-  @media  (max-width: 500px) {
+  @media (max-width: 500px) {
     div {
       width: 60%;
       justify-content: left;
@@ -126,7 +121,7 @@ export const MenuItemLink = styled.a`
     }
   }
 
-  @media  (max-width: 260px) {
+  @media (max-width: 260px) {
     div {
       width: 100%;
       justify-content: left;
@@ -141,14 +136,14 @@ export const MenuItemLink = styled.a`
 export const MobileIcon = styled.div`
   display: none;
 
-  @media  (max-width: 960px) {
+  @media (max-width: 960px) {
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
 
     svg {
-      fill: #B95D5B;
+      fill: #b95d5b;
       margin-right: 0.5rem;
     }
   }

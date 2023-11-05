@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const HeadingSection = ({ title }) => {
   return (
@@ -13,7 +13,7 @@ export default HeadingSection;
 const HeadingStyles = styled.div`
   border-radius: 5px;
   margin: 30px 0;
-  background-image: url('./assets/title_pattern.png');
+  background-image: url("./assets/title_pattern.png");
   height: 50px;
   background-position: center;
   margin-top: 15%;

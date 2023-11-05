@@ -29,8 +29,8 @@ export const drinks = [
     id: 4,
     cover: drink4,
     title: "The Espresso Martini",
-  }
-]
+  },
+];
 
 export const food = [
   {
@@ -40,7 +40,7 @@ export const food = [
   },
   {
     id: 2,
-    cover:food4,
+    cover: food4,
     title: "Pasta",
   },
   {
@@ -55,37 +55,36 @@ export const food = [
   },
   {
     id: 5,
-    cover:food5,
+    cover: food5,
     title: "Pizza",
   },
   {
     id: 6,
-    cover:food6,
+    cover: food6,
     title: "Hummus Dip Vegan",
   },
-
-]
+];
 
 export const buttonsMenu = [
   {
-    id:1,
+    id: 1,
     title: "Menu",
-    button:  "Menu",
-    url:'/food-menu',
+    button: "Menu",
+    url: "/food-menu",
   },
   {
-    id:2,
+    id: 2,
     title: "Kids Menu",
     button: "Kids Menu",
-    url:'/kids-menu',
+    url: "/kids-menu",
   },
 ];
 
 export const buttonsDrinks = [
   {
-    id:1,
+    id: 1,
     title: "Drinks & Cocktails",
     button: "Drinks & Cocktails",
-    url:'/drinks&cocktails',
+    url: "/drinks&cocktails",
   },
 ];

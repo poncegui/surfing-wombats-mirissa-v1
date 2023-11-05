@@ -17,18 +17,18 @@ const Footer = () => {
       </div>
       <div className="footer-section-two">
         <div className="footer-section-columns">
-        <span>Contact</span>
+          <span>Contact</span>
           <span> Bandaramulla, Mirissa 81740</span>
           <span> surfingwombatsmirissa@gmail.com</span>
         </div>
         <div className="footer-section-columns">
-        {/* <span>Qualtiy</span>
+          {/* <span>Qualtiy</span>
           <span>Help</span>
         <span>Testimonials</span>
           <span>About</span> */}
         </div>
         <div className="footer-section-columns">
-        <span>Privacy Policy</span>
+          <span>Privacy Policy</span>
           <span>Terms & Conditions</span>
           <span>Cookies</span>
         </div>

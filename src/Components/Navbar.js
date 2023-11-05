@@ -4,14 +4,14 @@ import {
   MenuItem,
   MobileIcon,
   Wrapper,
-} from './Navbar.elements';
-import { FaBars, FaInstagram, FaTimes } from 'react-icons/fa';
-import React, { useState } from 'react';
+} from "./Navbar.elements";
+import { FaBars, FaInstagram, FaTimes } from "react-icons/fa";
+import React, { useState } from "react";
 
-import BannerImageGrey from '../Assets/logo-wombats-grey.png';
-import { IconContext } from 'react-icons';
-import { Link } from 'react-router-dom';
-import { Link as MenuItemLink } from 'react-scroll';
+import BannerImageGrey from "../Assets/logo-wombats-grey.png";
+import { IconContext } from "react-icons";
+import { Link } from "react-router-dom";
+import { Link as MenuItemLink } from "react-scroll";
 
 const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <Container>
       <Wrapper>
-        <IconContext.Provider value={{ style: { fontSize: '2em' } }}>
+        <IconContext.Provider value={{ style: { fontSize: "2em" } }}>
           <MobileIcon onClick={() => setShowMobileMenu(!showMobileMenu)}>
             {showMobileMenu ? <FaTimes /> : <FaBars />}
           </MobileIcon>

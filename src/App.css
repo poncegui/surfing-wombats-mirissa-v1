@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'LAQUATSA', sans-serif !important;
+  font-family: "LAQUATSA", sans-serif !important;
   letter-spacing: 2px;
   text-decoration: none;
 }
@@ -28,8 +28,8 @@ body {
 }
 
 @font-face {
-  font-family: 'LAQUATSA';
-  src: url('./Assets/lacuatsa/Laquatsa.ttf');
+  font-family: "LAQUATSA";
+  src: url("./Assets/lacuatsa/Laquatsa.ttf");
   font-style: normal;
   font-weight: normal;
   letter-spacing: -5px;
@@ -42,7 +42,7 @@ body {
 
 @media (min-width: 860px) {
   .title-navbar {
-   display: none;
+    display: none;
   }
 }
 
@@ -51,8 +51,8 @@ body {
 }
 
 .links-size:hover {
-  text-decoration:line-through rgb(55, 56, 56);
-      transition: all 0.3s ease-out;
+  text-decoration: line-through rgb(55, 56, 56);
+  transition: all 0.3s ease-out;
 }
 
 .navbar-menu-container {
@@ -61,20 +61,19 @@ body {
 .navbar-links-container a {
   margin-right: 2rem;
   text-decoration: none;
-  color: #B95D5B;
+  color: #b95d5b;
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: 2px;
 }
 
-.navbar-links-container  a:hover {
-  text-decoration:line-through #B95D5B;
+.navbar-links-container a:hover {
+  text-decoration: line-through #b95d5b;
   transition: all 0.3s ease-out;
-
 }
 .primary-button {
- position: -30%;
- margin-top: 2rem;
+  position: -30%;
+  margin-top: 2rem;
   padding: 0.9rem 1.75rem;
   background-color: #f9efe4;
   outline: none;
@@ -89,28 +88,28 @@ body {
 .nav-button {
   position: -30%;
   margin-top: 2rem;
-   padding: 0.5rem 1.2rem;
-   outline: none;
-   border: none;
-   border-radius: 5rem;
-   font-size: 0.8rem;
-   cursor: pointer;
-   font-weight: 600;
-   transition: 0.2s;
-   letter-spacing: 2px;
-   background-color: #f9efe4;
- }
- .nav-button:hover{
+  padding: 0.5rem 1.2rem;
+  outline: none;
+  border: none;
+  border-radius: 5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+  letter-spacing: 2px;
+  background-color: #f9efe4;
+}
+.nav-button:hover {
   margin-top: 0;
   margin-right: 2rem;
   background-color: #dbd7d7;
 }
 
- @media (min-width: 860px) {
-  .nav-button{
+@media (min-width: 860px) {
+  .nav-button {
     margin-top: 0;
     margin-right: 2rem;
-    border: #B95D5B;
+    border: #b95d5b;
   }
 }
 .navbar-cart-icon {
@@ -124,24 +123,23 @@ body {
   cursor: pointer;
 }
 
-
-.primary-heading-image{
-  width:6.25rem;
+.primary-heading-image {
+  width: 6.25rem;
 }
 
-.navbar-heading-image{
-  width:6.25rem;
+.navbar-heading-image {
+  width: 6.25rem;
   margin-bottom: 3rem;
 }
 
 @media (min-width: 860px) {
-  .navbar-heading-image{
+  .navbar-heading-image {
     display: none;
-}
+  }
 }
 .primary-heading {
   font-size: clamp(2.5rem, 5vw, 3rem);
-  color:#B95D5B;
+  color: #b95d5b;
   max-width: 800px;
   letter-spacing: 5px;
   font-weight: 300;
@@ -149,14 +147,14 @@ body {
 
 .secondary-heading {
   font-size: clamp(1.5rem, 3vw, 2rem);
-  color: #B95D5B;
+  color: #b95d5b;
   max-width: 600px;
   letter-spacing: 5px;
   font-weight: 200;
   margin: 5% 0;
 }
 @media (max-width: 440px) {
-  .secondary-heading{
+  .secondary-heading {
     font-size: clamp(1.2rem, 2vw, 1.5rem);
   }
 }
@@ -170,7 +168,7 @@ body {
 }
 .secondary-button {
   padding: 1rem 2.5rem;
-  background-color: #B95D5B;
+  background-color: #b95d5b;
   outline: none;
   border: none;
   border-radius: 5rem;
@@ -185,7 +183,7 @@ body {
   letter-spacing: 2px;
 }
 @media (max-width: 440px) {
-  .secondary-button{
+  .secondary-button {
     padding: 0.7rem 1.2rem;
   }
 }
@@ -195,8 +193,8 @@ body {
 }
 .secondary-button:hover {
   background-color: #f9efe4;
-  color: #B95D5B;
-  border-color: #B95D5B;
+  color: #b95d5b;
+  border-color: #b95d5b;
 }
 .about-section-container {
   margin-top: 10rem;
@@ -209,14 +207,13 @@ body {
   position: absolute;
   left: -150px;
   z-index: -2;
-
 }
 .about-section-image-container {
   flex: 0.9;
   margin-right: 3rem;
 }
 
-.about-section-image-container img{
+.about-section-image-container img {
   border-radius: 10px;
   /* opacity: 0.9; */
 }
@@ -229,7 +226,7 @@ body {
 }
 .primary-subheading {
   font-weight: 300;
-  color: #B95D5B;
+  color: #b95d5b;
   font-size: 2rem;
   margin-bottom: 3%;
 }
@@ -253,7 +250,7 @@ body {
   justify-content: center;
 }
 .watch-video-button:hover {
-  color: #B95D5B;
+  color: #b95d5b;
 }
 .watch-video-button svg {
   font-size: 3rem;
@@ -345,7 +342,7 @@ body {
 .testimonials-stars-container svg {
   margin: 0rem 0.25rem;
   font-size: 1.5rem;
-  color: #B95D5B;
+  color: #b95d5b;
 }
 .testimonial-section-bottom h2 {
   margin-top: 1.5rem;
@@ -380,7 +377,7 @@ body {
   color: #4c4c4c;
 }
 
-.work-section-info  {
+.work-section-info {
   background-color: #f9efe4;
   /* background-image: linear-gradient(
     to bottom,
@@ -391,26 +388,25 @@ body {
 .work-section-info h2 {
   margin: 2rem 0rem;
 }
-.work-section-info img{
+.work-section-info img {
   opacity: 0.5;
-
 }
 
-.work-section-info button{
-cursor: pointer;
-border-radius: 30px;
-width: 150px;
-height: 50px;
-background-color:#B95D5B;
-color:#f9efe4;
+.work-section-info button {
+  cursor: pointer;
+  border-radius: 30px;
+  width: 150px;
+  height: 50px;
+  background-color: #b95d5b;
+  color: #f9efe4;
 }
 
-.work-section-info:hover button{
+.work-section-info:hover button {
   cursor: pointer;
   border-radius: 30px;
   background-color: #4c4c4c;
   color: #f9efe4;
-  }
+}
 
 .work-section-bottom {
   margin-top: 1rem;
@@ -438,15 +434,15 @@ color:#f9efe4;
     max-width: 600px;
   }
 }
-  .nav-logo-container {
+.nav-logo-container {
   width: 100px;
-  }
+}
 
-  @media (min-width: 440px) {
-    .nav-logo-container img{
-     display: none;
-    }
+@media (min-width: 440px) {
+  .nav-logo-container img {
+    display: none;
   }
+}
 
 @media (max-width: 800px) {
   .nav-logo-container {

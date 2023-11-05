@@ -1,33 +1,33 @@
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
-import "./SliderDisplay.css"
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "./SliderDisplay.css";
 
-import { Link } from "react-router-dom"
-import React from "react"
-import Slider from "react-slick"
-import Ucard from "./Ucard"
+import { Link } from "react-router-dom";
+import React from "react";
+import Slider from "react-slick";
+import Ucard from "./Ucard";
 
 const SampleNextArrow = (props) => {
-  const { onClick } = props
+  const { onClick } = props;
   return (
-    <div className='control-btn' onClick={onClick}>
-      <button className='next'>
-        <i class='fa fa-chevron-right'></i>
+    <div className="control-btn" onClick={onClick}>
+      <button className="next">
+        <i class="fa fa-chevron-right"></i>
       </button>
     </div>
-  )
-}
+  );
+};
 const SamplePrevArrow = (props) => {
-  const { onClick } = props
+  const { onClick } = props;
   return (
-    <div className='control-btn' onClick={onClick}>
-      <button className='prev'>
-        <i class='fa fa-chevron-left'></i>
+    <div className="control-btn" onClick={onClick}>
+      <button className="prev">
+        <i class="fa fa-chevron-left"></i>
       </button>
     </div>
-  )
-}
-const SliderDisplay = ({ items, title , slides}) => {
+  );
+};
+const SliderDisplay = ({ items, title, slides }) => {
   const settings = {
     dots: false,
     infinite: true,
@@ -45,30 +45,30 @@ const SliderDisplay = ({ items, title , slides}) => {
         },
       },
     ],
-  }
+  };
   return (
     <>
-      <section className='upcome'>
-        <div className='container'>
-          <div className='heading flexSB'>
+      <section className="upcome">
+        <div className="container">
+          <div className="heading flexSB">
             <h1>{title}</h1>
-            <Link to='/'>View All</Link>
+            <Link to="/">View All</Link>
           </div>
-          <div className='content'>
+          <div className="content">
             <Slider {...settings}>
               {items.map((item) => {
                 return (
                   <>
                     <Ucard key={item.id} item={item} />
                   </>
-                )
+                );
               })}
             </Slider>
           </div>
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default SliderDisplay
+export default SliderDisplay;

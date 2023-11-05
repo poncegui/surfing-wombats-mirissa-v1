@@ -86,7 +86,9 @@ export const Icons = styled.div`
   border-radius: 10px;
   width: 100%;
   background: #e0e0e0;
-  box-shadow: 20px 20px 20px #949494, -20px -20px 20px #ffffff;
+  box-shadow:
+    20px 20px 20px #949494,
+    -20px -20px 20px #ffffff;
   gap: 1rem;
 
   :hover {
@@ -106,7 +108,9 @@ export const Icons = styled.div`
   }
 
   @media (max-width: 950px) {
-    box-shadow: 20px 20px 40px #949494, -20px -20px 30px #ffffff;
+    box-shadow:
+      20px 20px 40px #949494,
+      -20px -20px 30px #ffffff;
 
     h3 {
       font-size: 0.8rem;
@@ -122,7 +126,9 @@ export const Icons = styled.div`
       gap: 0.6rem;
       border-radius: 10px;
       width: 90%;
-      box-shadow: 10px 10px 20px #949494, -10px -10px 20px #ffffff;
+      box-shadow:
+        10px 10px 20px #949494,
+        -10px -10px 20px #ffffff;
 
       h3 {
         font-size: 1rem;

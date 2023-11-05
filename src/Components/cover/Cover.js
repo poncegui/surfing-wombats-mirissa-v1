@@ -1,11 +1,11 @@
-import './Cover.css';
+import "./Cover.css";
 
-import BannerImage from '../../Assets/logo-wombats.png';
-import Navbar from '../Navbar';
-import React from 'react';
-import TitleSection from '../../Components/TitleSection';
-import coverVideo from '../../Assets/images-cover/background-1.jpg';
-import styled from 'styled-components';
+import BannerImage from "../../Assets/logo-wombats.png";
+import Navbar from "../Navbar";
+import React from "react";
+import TitleSection from "../../Components/TitleSection";
+import coverVideo from "../../Assets/images-cover/background-1.jpg";
+import styled from "styled-components";
 
 const Cover = () => {
   return (
