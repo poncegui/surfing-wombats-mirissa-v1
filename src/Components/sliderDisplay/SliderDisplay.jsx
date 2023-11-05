@@ -4,7 +4,7 @@ import "./SliderDisplay.css";
 
 import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 
-import HeadingSection from "../components/HeadingSection/HeadingSection";
+import HeadingSection from "../HeadingSection/HeadingSection";
 import { Link } from "react-router-dom";
 import React from "react";
 import Slider from "react-slick";

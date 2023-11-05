@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import { FaChevronCircleUp } from "react-icons/fa";
+import { FaArrowCircleUp } from "react-icons/fa";
 import styled from "styled-components";
 
 const ScrollToTop = () => {
@@ -29,7 +29,7 @@ const ScrollToTop = () => {
       onClick={goTop}
       aria-label="inicio"
     >
-      <FaChevronCircleUp />
+      <FaArrowCircleUp />
     </ScrollButton>
   );
 };
@@ -41,17 +41,17 @@ const ScrollButton = styled.button`
   bottom: 40px;
   z-index: 1;
   cursor: pointer;
-  color: #b95d5b;
+  color: grey;
   right: 2%;
   background: none;
   border-radius: 50px;
   padding: 0px;
   border: none;
-  opacity: 0.8;
-  font-size: 2.5rem;
+  opacity: 0.7;
+  font-size: 4rem;
   margin-right: 1.5rem;
 
   @media (max-width: 440px) {
-    font-size: 2.1rem;
+    font-size: 3rem;
   }
 `;
