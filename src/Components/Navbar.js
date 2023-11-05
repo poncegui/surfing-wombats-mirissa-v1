@@ -36,7 +36,7 @@ const Navbar = () => {
             </MenuItem>
             <MenuItem>
               <MenuItemLink
-                to="home"
+                to="/home"
                 spy={true}
                 smooth={true}
                 offset={-100}
@@ -48,7 +48,7 @@ const Navbar = () => {
             </MenuItem>
             <MenuItem>
               <MenuItemLink
-                to="about"
+                to="/about"
                 spy={true}
                 smooth={true}
                 offset={-100}
@@ -60,7 +60,7 @@ const Navbar = () => {
             </MenuItem>
             <MenuItem>
               <MenuItemLink
-                to="menu"
+                to="/menu"
                 spy={true}
                 smooth={true}
                 offset={-100}
@@ -72,7 +72,7 @@ const Navbar = () => {
             </MenuItem>
             <MenuItem>
               <MenuItemLink
-                to="location"
+                to="/location"
                 spy={true}
                 smooth={true}
                 offset={-100}
@@ -87,6 +87,7 @@ const Navbar = () => {
                 to="https://www.instagram.com/surfingwombatsmirissa/?hl=es"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="go to instagram"
               >
                 <button className="nav-button">
                   <FaInstagram className="navbar-cart-icon" /> ∼ Bookings by DM

@@ -6,7 +6,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="about-section-container" id="about">
+    <div className="about-section-container" id="/about">
       <div className="about-background-image-container">
         {/* <img src={AboutBackground} alt="" />  */}
       </div>
@@ -30,6 +30,7 @@ const About = () => {
             href="https://www.instagram.com/reel/Clfp_-bIVz3/?igshid=MTc4MmM1YmI2Ng=="
             target="_blank"
             rel="noreferrer"
+            aria-label="go to instagram video of surfing wombats mirissa"
           >
             <button className="watch-video-button">
               <BsFillPlayCircleFill /> Watch Video

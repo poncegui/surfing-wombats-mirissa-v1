@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 const MapMirissa = () => {
   return (
-    <MapSection id="location">
+    <MapSection id="/location">
       <ContentProjects {...mapMirissaData} inverse />
     </MapSection>
   );
