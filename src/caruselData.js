@@ -14,21 +14,25 @@ export const drinks = [
     id: 1,
     cover: drink1,
     title: "Pinneapple Spice",
+    alt:"Pinneapple Spice",
   },
   {
     id: 2,
     cover: drink2,
     title: "Exotic Cosmopolitan",
+    alt:"Exotic Cosmopolitan",
   },
   {
     id: 3,
     cover: drink3,
     title: "Tropical Sangria",
-  },
+    alt:"Tropical Sangria",
+  }, 
   {
     id: 4,
     cover: drink4,
     title: "The Espresso Martini",
+    alt: "The Espresso Martini",
   },
 ];
 
@@ -37,31 +41,37 @@ export const food = [
     id: 1,
     cover: food1,
     title: "Burrata Salad",
+    alt:"Burrata Salad",
   },
   {
     id: 2,
     cover: food4,
     title: "Pasta",
+    alt:"Pasta",
   },
   {
     id: 3,
     cover: food3,
     title: "Romesco Prawns",
+    alt:"Romesco Prawns",
   },
   {
     id: 4,
     cover: food7,
     title: "Real Pizza",
+    alt:"Real Pizza",
   },
   {
     id: 5,
     cover: food5,
     title: "Pizza",
+    alt:"Pizza",
   },
   {
     id: 6,
     cover: food6,
     title: "Hummus Dip Vegan",
+    alt:"Hummus Dip Vegan",
   },
 ];
 

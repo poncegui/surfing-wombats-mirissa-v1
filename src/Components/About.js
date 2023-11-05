@@ -11,7 +11,7 @@ const About = () => {
         {/* <img src={AboutBackground} alt="" />  */}
       </div>
       <div className="about-section-image-container">
-        <img src={AboutBackgroundImage} alt="pizza-on-the-sea" />
+        <img src={AboutBackgroundImage} alt="pizza-on-the-sea" aria-label="about us" />
       </div>
       <div className="about-section-text-container">
         <h1 className="primary-subheading">| About |</h1>

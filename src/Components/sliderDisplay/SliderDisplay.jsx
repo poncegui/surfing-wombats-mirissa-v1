@@ -40,7 +40,7 @@ const SamplePrevArrow = (props) => {
     </div>
   );
 };
-const SliderDisplay = ({ slides, title, id, items, buttons }) => {
+const SliderDisplay = ({ slides, title, id, items,alt, buttons }) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -80,7 +80,7 @@ const SliderDisplay = ({ slides, title, id, items, buttons }) => {
               {items.map((item) => {
                 return (
                   <>
-                    <Ucard key={item.id} item={item} />
+                    <Ucard key={item.id} item={item} alt={item.alt}/>
                   </>
                 );
               })}
