@@ -13,7 +13,7 @@ export const drinks = [
   {
     id: 1,
     cover: drink1,
-    title: "Pinneaple Spice",
+    title: "Pinneapple Spice",
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ export const drinks = [
   {
     id: 4,
     cover: drink4,
-    title: "The Expresso Martini",
+    title: "The Espresso Martini",
   }
 ]
 
@@ -61,7 +61,7 @@ export const food = [
   {
     id: 6,
     cover:food6,
-    title: "Hummus Dip (Vegan)",
+    title: "Hummus Dip Vegan",
   },
 
 ]
