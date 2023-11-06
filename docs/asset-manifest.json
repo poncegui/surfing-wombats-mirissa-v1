@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.9239897a.css",
-    "main.js": "./static/js/main.b61c59ec.js",
+    "main.css": "./static/css/main.a7c7ef88.css",
+    "main.js": "./static/js/main.a02f62ca.js",
     "static/media/video-cover.MOV": "./static/media/video-cover.2180441649575b3d79db.MOV",
     "static/media/map-mirissa-pencil.png": "./static/media/map-mirissa-pencil.dd70a3e96921301b5817.png",
     "static/media/cocktail-4.jpg": "./static/media/cocktail-4.d5afb532b33addb9b7cf.jpg",
     "static/media/real-pizza.jpg": "./static/media/real-pizza.d3eb99a63edf6598c9c8.jpg",
-    "static/media/hand-made-pizza.jpg": "./static/media/hand-made-pizza.99767844ac28592d74f0.jpg",
     "static/media/exotic-cosmopolitan.jpeg": "./static/media/exotic-cosmopolitan.7f937a49795ccd1c1efb.jpeg",
     "static/media/pinneaple-spice.jpeg": "./static/media/pinneaple-spice.1a6cfe1a0a59cbe18661.jpeg",
     "static/media/prawns.jpeg": "./static/media/prawns.2546ffb359dc118e7fd2.jpeg",
-    "static/media/hummus.jpg": "./static/media/hummus.a8cfb3791e20ced73610.jpg",
     "static/media/menu-surfing-wombats.pdf": "./static/media/menu-surfing-wombats.1bf10fcd140b87a6689c.pdf",
     "static/media/pizzas-mar.png": "./static/media/pizzas-mar.fa08a1938ff857fe8994.png",
     "static/media/menu-kids.png": "./static/media/menu-kids.72aeacfd73c4338205a5.png",
@@ -19,6 +17,8 @@
     "static/media/cocktail-3.png": "./static/media/cocktail-3.07bf8de6654a731f1f78.png",
     "static/media/Laquatsa.ttf": "./static/media/Laquatsa.4ed2ad784a85a6e5aae9.ttf",
     "static/media/logo-wombats.png": "./static/media/logo-wombats.06c373a0884ca7de6968.png",
+    "static/media/hand-made-pizza.jpg": "./static/media/hand-made-pizza.3a15910e582056fbd7ec.jpg",
+    "static/media/hummus.jpg": "./static/media/hummus.9ea1938e701ecc9b0710.jpg",
     "static/media/dish-1.jpeg": "./static/media/dish-1.675651d77931bf1433b8.jpeg",
     "static/media/logo-wombats-grey.png": "./static/media/logo-wombats-grey.49cb8d73997a43c6e44c.png",
     "static/media/background-1.jpg": "./static/media/background-1.bf0d07797e3d12c69b18.jpg",
@@ -27,8 +27,11 @@
     "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "index.html": "./index.html",
-    "main.9239897a.css.map": "./static/css/main.9239897a.css.map",
-    "main.b61c59ec.js.map": "./static/js/main.b61c59ec.js.map"
+    "main.a7c7ef88.css.map": "./static/css/main.a7c7ef88.css.map",
+    "main.a02f62ca.js.map": "./static/js/main.a02f62ca.js.map"
   },
-  "entrypoints": ["static/css/main.9239897a.css", "static/js/main.b61c59ec.js"]
+  "entrypoints": [
+    "static/css/main.a7c7ef88.css",
+    "static/js/main.a02f62ca.js"
+  ]
 }
