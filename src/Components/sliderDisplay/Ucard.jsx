@@ -1,11 +1,11 @@
 import React from "react";
 
-const Ucard = ({ item: { cover, title } }) => {
+const Ucard = ({ item: { cover, alt, title } }) => {
   return (
     <>
       <div className="MovieBox">
         <div className="img">
-          <img src={cover} alt="" />
+          <img src={cover} alt={alt} />
         </div>
         <div className="text">
           <h3>{title}</h3>

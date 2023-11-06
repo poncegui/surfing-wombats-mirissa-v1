@@ -8,6 +8,14 @@
   border-left: 5px solid transparent;
 }
 
+@media (max-width: 440px) {
+  .MovieBox {
+    width: 320px;
+    height: 250px;
+    border-left: 0px;
+  }
+}
+
 .MovieBox:hover {
   cursor: pointer;
   border-left: 5px solid #b95d5b;
@@ -60,14 +68,6 @@
   color: white;
 }
 
-/*---------------MovieBox-------------*/
-@media (max-width: 440px) {
-  .MovieBox {
-    width: 320px;
-    height: 250px;
-    border-left: 0px;
-  }
-}
 /*---------------control-btn-------------*/
 .control-btn button {
   cursor: pointer;

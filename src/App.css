@@ -103,6 +103,7 @@ body {
   margin-top: 0;
   margin-right: 2rem;
   background-color: #dbd7d7;
+  transition: all 0.3s ease;
 }
 
 @media (min-width: 860px) {
@@ -194,7 +195,7 @@ body {
 .secondary-button:hover {
   background-color: #f9efe4;
   color: #b95d5b;
-  border-color: #b95d5b;
+  transition: all 0.3s ease;
 }
 .about-section-container {
   margin-top: 10rem;

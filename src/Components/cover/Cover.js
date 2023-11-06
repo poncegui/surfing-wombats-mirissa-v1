@@ -13,7 +13,12 @@ const Cover = () => {
       <CoverContainer>
         <Navbar />
         {/* <video className="video" src={coverVideo} autoPlay loop muted /> */}
-        <img className="background" src={coverVideo} alt="views"  layout='responsive'/>
+        <img
+          className="background"
+          src={coverVideo}
+          alt="views"
+          layout="responsive"
+        />
         <SurfingWombatsTitleContainer>
           <h1>Surfing</h1>
           <img

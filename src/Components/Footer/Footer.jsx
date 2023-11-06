@@ -19,7 +19,7 @@ const Footer = () => {
                   target="_blank"
                   title="phone"
                   rel="noreferrer"
-                  aria-label="go to telephone number"
+                  aria-label="telephone number"
                 >
                   (+94) 412 25 47 66
                 </Link>
@@ -45,7 +45,7 @@ const Footer = () => {
                   to="https://www.google.com/maps/place/Surfing+Wombats+Mirissa/@5.9428195,80.4611778,17z/data=!3m1!4b1!4m6!3m5!1s0x3ae13ff371739699:0x62393379e7a1f5d8!8m2!3d5.9428195!4d80.4637527!16s%2Fg%2F11j8qvphr3?entry=ttu"
                   target="_blank"
                   rel="noreferrer"
-                  aria-label="google.com/maps"
+                  aria-label=" Bandaramulla, Mirissan81740"
                 >
                   Bandaramulla, <br></br>Mirissa 81740
                 </Link>
@@ -78,7 +78,7 @@ const Footer = () => {
                 href="https://www.instagram.com/surfingwombatsmirissa/?hl=es"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="go to instagram"
+                aria-label="instagram"
               >
                 <BsInstagram />
               </a>
@@ -86,7 +86,7 @@ const Footer = () => {
                 href="https://www.facebook.com/profile.php?id=100078093587035"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="go to facebook"
+                aria-label="facebook"
               >
                 <FaFacebookF />
               </a>
